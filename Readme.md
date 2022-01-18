@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Пароваткина](https://up.htmlacademy.ru/htmlcss/33/user/302695).
-* Наставник: Михаил Поданев. (https://htmlacademy.ru/profile/mpodanev)
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev)
 
 ---
 
