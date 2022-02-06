@@ -182,3 +182,124 @@
     color: #ffffff;
     text-decoration: none;
   }
+  /* Breadcrumbs */
+.breadcrumbs {
+    color: #ffffff;
+  }
+  
+  /* Link */
+  .breadcrumbs-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+  }
+  /* Список гостиниц с фильтрами */
+  
+  .catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .control {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  /* Поиск гостиницы */
+  .find-hotel {
+    color:#000000;
+    background-color:#ffffff; 
+    text-align: center;
+  }
+  .find-hotel h3 {
+    color: #000000;
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .find-hotel p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color:#333333;
+  }
+  .favourites-link {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #83b3d3;
+  }
+  
+  .favourites-link:nth-child(3) {
+    background-color: #7DB54F;
+  }
+  
+  .rating-hotel {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    background-color: #ffffff;
+  }
+  .pagination-link {
+    color: #ffffff;
+    background-color: #83B3D3;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  .pagination-current {
+    color: #000000;
+    background-color: #f2f2f2;
+  }
+  .hotel-card-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: left;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  .pagination-show-more {
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    text-align: center;
+  }
+  .newsletter-inner-page {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color:#333333;
+    background-color: #ffffff;
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .newsletter-inner-page h3 {
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color:#000000;
+  }
+  
