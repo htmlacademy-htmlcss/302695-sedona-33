@@ -54,6 +54,12 @@
     background-repeat: no-repeat;
     text-align: center;
   }
+  .main-inner {
+    background-color: #ffffff;
+    background-image: url("../images/catalog-background-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
   .first-screen h2 {
     color: #000000;
   }
