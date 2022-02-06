@@ -20,7 +20,17 @@
     color: #333333;
     background-color: #ffffff;
   }
-
+  .button {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #83B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
   /* Pages */
 /* Шапка */
 .main-page-header {
@@ -151,4 +161,3 @@
     text-decoration: none;
     text-align: center;
   }
-  
