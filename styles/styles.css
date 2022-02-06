@@ -34,6 +34,16 @@ body {
     text-transform: uppercase;
   }
 
+.button-find {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756257;
+  } 
+   
 .hotel-card-button {
     font-size: 16px;
     line-height: 21px;
@@ -78,7 +88,7 @@ body {
 .first-screen {
     background-color: #ffffff;
   }  
-  
+
 .first-screen h2 {
     color: #000000;
   }
