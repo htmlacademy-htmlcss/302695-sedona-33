@@ -241,6 +241,15 @@ body {
     text-decoration: none;
   }
 
+.sorting-container .button {
+    color: #333333;
+    background-color: inherit;
+  }
+
+.button.button-in-frame {
+    text-decoration: underline;
+  }
+
 /* Поиск гостиницы */
 .find-hotel {
     color:#000000;
