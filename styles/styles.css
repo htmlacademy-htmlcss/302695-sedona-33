@@ -36,3 +36,119 @@
     background-color: #ffffff;
     text-decoration: none;
   }
+  /* Главная страница */
+.main-page {
+    background-color: #ffffff;
+    background-image: url("../images/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .first-screen h2 {
+    color: #000000;
+  }
+  .first-screen p {
+    color: #333333;
+  } 
+  /* Преимущества */
+/* List */
+.advantages-list {
+    text-align: center;
+  }
+  /* Title */
+  
+  .advantages-item {
+    color: #333333;
+    background: #ffffff;
+  }
+  
+  .advantages-item:nth-child(1) {
+    color: #ffffff;
+    background: #83B3D3;
+  }
+  .advantages-item:nth-child(2) {
+    background: #83B3D31F;
+  }
+  .advantages-item:nth-child(3) {
+    background: #FFFFFF;
+  }
+  .advantages-item:nth-child(4) {
+  background: #83B3D31F;
+  }
+  .advantages-item:nth-child(5) {
+    color: #FFFFFF;
+    background: #83B3D3;
+  }
+  .advantages-item:nth-child(6) {
+    background: #83B3D31F;
+  }
+  .advantages-item:nth-child(7) {
+    background: #83B3D333;
+  }
+  .advantages-item:nth-child(8) {
+    background: #83B3D31F;
+  }
+  
+  .advantages-title {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+  .advantages-description {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: none;
+    text-align: center;
+  }  
+  /* Рассылка */
+.newsletter {
+    background-image: url("../images/background.jpg");
+    color:#ffffff;
+    background-color:#000000; 
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .newsletter h3 {
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color:#ffffff;
+  }
+  .newsletter p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color:#ffffff;
+   }
+   /* Подвал */
+ .page-footer {
+    color: #000000;
+    background-color: #ffffff;
+    width: 1200px;
+    height: 120px;
+   }
+  .footer-social-list .footer-social-item a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .contacts-subtitle a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
