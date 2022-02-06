@@ -174,3 +174,11 @@
     text-decoration: none;
     text-align: center;
   }
+  .inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+  }
