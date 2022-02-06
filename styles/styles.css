@@ -284,10 +284,10 @@ body {
     background-color: #83b3d3;
   }
   
-.favourites-link:nth-child(3) {
-    background-color: #7DB54F;
+.favourites-link.current {
+    background-color:#7DB54F;
   }
-  
+ 
 .rating-hotel {
     background-color: #f2f2f2;
   }
