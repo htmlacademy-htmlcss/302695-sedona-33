@@ -73,6 +73,12 @@ body {
     margin: 0 auto;
   }
 
+.navigation-list {
+    margin: 0;
+    padding: 0;
+
+}  
+
 .navigation-link {
     font-weight: 700;
     font-size: 20px;
