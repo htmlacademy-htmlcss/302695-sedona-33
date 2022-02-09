@@ -114,6 +114,12 @@ body {
     background-repeat: no-repeat;
   }
 
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+
 .first-screen {
     background-color: #ffffff;
   }  
