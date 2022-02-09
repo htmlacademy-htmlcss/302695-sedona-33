@@ -77,6 +77,10 @@ body {
     text-decoration: none;
   }
 
+.main-container {
+    flex-grow: 1;
+  }
+  
 /* Главная страница */
 .main-page {
     background-color: #ffffff;
