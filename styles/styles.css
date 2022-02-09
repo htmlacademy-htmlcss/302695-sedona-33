@@ -67,6 +67,12 @@ body {
     background: #ffffff;
   }
 
+.navigation {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+  }
+
 .navigation-link {
     font-weight: 700;
     font-size: 20px;
