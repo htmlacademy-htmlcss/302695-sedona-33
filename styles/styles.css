@@ -139,6 +139,8 @@ body {
 /* Преимущества */
 /* List */
 .advantages-list {
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
 
