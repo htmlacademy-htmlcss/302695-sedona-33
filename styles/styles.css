@@ -74,10 +74,11 @@ body {
   }
 
 .navigation-list {
+    width: 345px;
     margin: 0;
     padding: 0;
 
-}  
+}
 
 .navigation-link {
     font-weight: 700;
