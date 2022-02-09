@@ -77,7 +77,6 @@ body {
     width: 345px;
     margin: 0;
     padding: 0;
-
 }
 
 .navigation-link {
@@ -89,6 +88,11 @@ body {
     background-color: #ffffff;
     text-decoration: none;
   }
+
+.navigation-user {
+  max-width: 334px;
+  margin-left: auto;
+}
 
 .main-container {
     flex-grow: 1;
