@@ -209,16 +209,7 @@ body {
     text-align: center;
   }  
 
-.advantages-first-reason {
-  display: flex;
-  margin-left: auto;
-}  
-
-.advantages-second-reason {
-  display: flex;
-  margin-right: auto;
-}  
-
+*/
 /* Рассылка */
 .newsletter {
     background-image: url("../images/background.jpg");
@@ -264,6 +255,11 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+.footer-social-list {
+  width: 107px;
+  margin-right: 61px;
+}  
 
 .footer-social-list .footer-social-item a {
     color: #000000;
