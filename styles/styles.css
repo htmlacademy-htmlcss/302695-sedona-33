@@ -326,6 +326,10 @@ body {
     margin: 0 0 44px 0;
 }
 
+.catalog-column {
+  width: 1057px;
+}
+
 /* Список гостиниц с фильтрами */
 .catalog-filter-title {
     font-weight: 700;
