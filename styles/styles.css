@@ -316,6 +316,10 @@ body {
     text-decoration: none;
   }
 
+.catalog-products {
+    display: flex;
+}
+
 /* Список гостиниц с фильтрами */
 .catalog-filter-title {
     font-weight: 700;
