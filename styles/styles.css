@@ -209,6 +209,12 @@ body {
     text-align: center;
   }  
 
+.find-hotel-newsletter {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
 /* Рассылка */
 .newsletter {
     background-image: url("../images/background.jpg");
