@@ -252,6 +252,7 @@ body {
 
 .page-footer-container {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
 }
@@ -269,6 +270,7 @@ body {
 .contacts-subtitle {
     width: 720px;
     margin-right: 53px;
+    text-align: center;
   }
 
 .contacts-subtitle a {
@@ -281,7 +283,7 @@ body {
   }
 
 .footer-logo-htmlacademy {
-    width: 53px;
+    width: 115px;
     margin-right: 72px;
   }
 
