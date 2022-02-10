@@ -141,6 +141,7 @@ body {
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -207,7 +208,17 @@ body {
     text-transform: none;
     text-align: center;
   }  
-  
+
+.advantages-first-reason {
+  display: flex;
+  margin-left: auto;
+}  
+
+.advantages-second-reason {
+  display: flex;
+  margin-right: auto;
+}  
+
 /* Рассылка */
 .newsletter {
     background-image: url("../images/background.jpg");
