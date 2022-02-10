@@ -318,6 +318,12 @@ body {
 
 .catalog-products {
     display: flex;
+    flex-direction: column;
+}
+
+.catalog-filter {
+    width: 1200px;
+    margin: 0 0 44px 0;
 }
 
 /* Список гостиниц с фильтрами */
