@@ -435,6 +435,9 @@ body {
   }
 
 .newsletter-inner-page {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
