@@ -280,6 +280,11 @@ body {
     text-align: center;
   }
 
+.footer-logo-htmlacademy {
+    width: 53px;
+    margin-right: 72px;
+  }
+
 .inner-header-title {
     font-weight: 700;
     font-size: 60px;
