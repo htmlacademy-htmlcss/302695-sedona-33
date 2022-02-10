@@ -266,6 +266,11 @@ body {
     text-decoration: none;
   }
 
+.contacts-subtitle {
+    width: 720px;
+    margin-right: 53px;
+  }
+
 .contacts-subtitle a {
     color: #000000;
     font-weight: 400;
