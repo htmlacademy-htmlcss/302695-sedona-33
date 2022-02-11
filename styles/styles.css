@@ -192,10 +192,6 @@ body {
     background: #83B3D31F;
   }
 
-  .blue-white {
-    width: 400px;
-} 
-
 .advantages-title {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
@@ -214,15 +210,7 @@ body {
     text-transform: none;
     text-align: center;
   }  
-/*
-  .advantages-first-reason {
-    margin-left: auto;
-  }
 
-  .advantages-second-reason {
-    margin-right: auto;
-  }
-*/
 .find-hotel-newsletter {
     display: flex;
     margin: 0 auto;
