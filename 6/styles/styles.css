@@ -150,12 +150,11 @@ body {
   /* Title */ 
 .advantages-item {
     display: flex;
-    flex-direction: column;
     width: 400px;
     color: #333333;
     background: #ffffff;
   }
-  
+
 .advantages-item:nth-child(1) {
     width: 1200px;
     color: #ffffff;
@@ -176,6 +175,7 @@ body {
 
 .advantages-item:nth-child(5) {
     width: 1200px;
+    flex-direction: row-reverse;
     color: #FFFFFF;
     background: #83B3D3;
   }
@@ -191,7 +191,7 @@ body {
 .advantages-item:nth-child(8) {
     background: #83B3D31F;
   }
-  
+
 .advantages-title {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
@@ -210,14 +210,6 @@ body {
     text-transform: none;
     text-align: center;
   }  
-
-  .advantages-first-reason {
-    margin-left: auto;
-  }
-
-  .advantages-second-reason {
-    margin-right: auto;
-  }
 
 .find-hotel-newsletter {
     display: flex;
