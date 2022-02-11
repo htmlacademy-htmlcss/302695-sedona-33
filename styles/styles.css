@@ -149,6 +149,8 @@ body {
 
   /* Title */ 
 .advantages-item {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     color: #333333;
     background: #ffffff;
@@ -208,6 +210,14 @@ body {
     text-transform: none;
     text-align: center;
   }  
+
+  .advantages-first-reason {
+    margin-left: auto;
+  }
+
+  .advantages-second-reason {
+    margin-right: auto;
+  }
 
 .find-hotel-newsletter {
     display: flex;
