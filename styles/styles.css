@@ -110,6 +110,11 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .navigation-link {
+  min-width: 20px;
+  min-height: 20px;
+}
+
 .main-container {
     flex-grow: 1;
   }
