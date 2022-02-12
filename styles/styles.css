@@ -450,6 +450,11 @@ body {
     text-align: center;
   }
 
+.select-page {
+  display: flex;
+  flex-direction: row;
+}
+
 .newsletter-inner-page {
     display: flex;
     margin: 0 auto;
