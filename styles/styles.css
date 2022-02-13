@@ -149,15 +149,30 @@ body {
 }  
 
 .first-screen {
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
     background-color: #ffffff;
   }  
-
+ 
 .first-screen h2 {
+    padding: 63px 240px 31px 240px;
+    width: 720px;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
     color: #000000;
   }
 
 .first-screen p {
+    padding-right: 240px;
+    padding-bottom: 80px;
+    padding-left: 240px;
+    width: 720px;
+    font-size: 22px;
+    line-height: 36px;
+    align-items: center;
     color: #333333;
   }
 
