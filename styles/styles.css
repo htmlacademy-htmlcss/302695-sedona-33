@@ -149,6 +149,7 @@ body {
 }  
 
 .first-screen {
+    margin: 0px;
     background-color: #ffffff;
   }  
 
@@ -162,6 +163,11 @@ body {
 
 /* Преимущества */
 /* List */
+
+.advantages {
+  margin: 0px;
+}
+
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
