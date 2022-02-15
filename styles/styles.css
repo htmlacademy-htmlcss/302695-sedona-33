@@ -363,7 +363,17 @@ body {
   }
 
 .field {
+    width: 600px;
+    height: 60px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    border-radius: 8px;
     background-color: #f2f2f2;
+
   }  
 
 
@@ -513,9 +523,26 @@ body {
 
  .sorting-container {
     display: flex;
-    margin-top: 44px;
-    margin-bottom: 53px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1057px;
+    padding: 0;
+    margin: 0;
  } 
+
+.sorting-container p {
+    display: flex;
+    width: 338px;
+    padding: 0;
+    margin: 0px 192px 0px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
 
 .sorting-container .button {
     width: 48px;
@@ -595,7 +622,8 @@ body {
     box-sizing: border-box;
     width: 55px;
     height: 55px;
-    padding: 0;
+    padding: 15px 19px;
+    border-radius: 4px;
     color: #ffffff;
     background-color: #83B3D3;
     text-decoration: none;
@@ -640,8 +668,11 @@ body {
 
 .pagination-show-more {
     display: block;
-    width: 617px;
-    margin: 30px 290px 0 290px;
+    width: 620px;
+    border-radius: 4px;
+    margin: 30px 218px 30px 218px;
+    padding: 17px 0;
+    border: none;
     color: #FFFFFF;
     background-color: #83B3D3;
     text-align: center;
@@ -650,14 +681,30 @@ body {
 .select-page {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 386px;
+  margin: 0px;
   padding: 0;
   width: 386px;
   margin-left: auto;
 }
 
+.select-page p {
+  display: flex;
+  width: 175px;
+  margin-right: 51px;
+  line-height: 23px;
+}
+
+.select-page-control {
+
+}
+
 .newsletter-inner-page {
     display: flex;
-    margin: 0 auto;
+    flex-wrap: nowrap;
+    width: 800px;
+    margin: 73px 150px 140px 150px;
     flex-direction: column;
     font-family: PT Sans;
     font-style: normal;
@@ -672,6 +719,7 @@ body {
   }
 
 .newsletter-inner-page h3 {
+    width: 700px;
     font-family: PT Sans;
     font-style: bold;
     font-weight: 700;
@@ -679,4 +727,14 @@ body {
     line-height: 36px;
     color:#000000;
   }
+
+.newsletter-inner-page p {
+    width: 700px;
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color:#333333;  
+  }  
 
