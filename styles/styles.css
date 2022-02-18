@@ -55,10 +55,8 @@ body {
   }
 
 .button-find {
-    /*width: 575px;
-    padding-left: 312px;
-    padding-right: 313px;
-    padding-bottom: 93px;*/
+    width: 575px;
+    padding: 15px 150px;
     font-family: inherit;
     font-size: 20px;
     line-height: 36px;
@@ -66,6 +64,7 @@ body {
     text-align: center;
     color: #ffffff;
     background-color: #756257;
+    border-radius: 10px;
   } 
    
 .hotel-card-button {
@@ -316,6 +315,20 @@ body {
     text-align: center;
 }
 
+.blue-white {
+    display: flex;
+    flex-direction: column;
+}
+
+.number-reason {
+    width: 250px;
+    margin: 30px 75px;
+}
+
+.advantages-description-white {
+  
+}
+
 .three-reason .advantages-title {
     padding-top: 184px;
     padding-right: 75px;
@@ -336,18 +349,15 @@ body {
     display: flex;
     margin: 0 auto;
     flex-direction: column;
+    width: 1200px;
 }
-
-.find-hotel {
-  padding-top: 91px;
-  padding-bottom: 93px;
-} 
 
 .interest {
   width: 720px;
-  padding-left: 280px;
-  padding-right: 280px;
+  padding-left: 240px;
+  padding-right: 220px;
 }
+
 
 /* Рассылка */
 .newsletter {
@@ -361,6 +371,12 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
 
 .field {
     width: 600px;
@@ -378,6 +394,9 @@ body {
 
 
 .newsletter h3 {
+    width: 720px;
+    margin-left: 240px;
+    margin-right: 240px;
     font-family: PT Sans;
     font-style: bold;
     font-weight: 700;
@@ -557,16 +576,12 @@ body {
 
 /* Поиск гостиницы */
 .find-hotel {
+    padding-top: 91px;
+    padding-bottom: 93px;
     color:#000000;
     background-color:#ffffff; 
     text-align: center;
   }
-
-.find-hotel-catalog {
-  display: flex;
-  flex-direction: column;
-  width: 1056px;
-}
 
 .find-hotel h3 {
     color: #000000;
@@ -585,6 +600,12 @@ body {
     line-height: 26px;
     color:#333333;
   }
+
+.find-hotel-catalog {
+  display: flex;
+  flex-direction: column;
+  width: 1056px;
+}
 
 .favourites-link {
     font-size: 16px;
