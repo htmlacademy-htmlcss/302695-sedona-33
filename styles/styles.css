@@ -152,9 +152,6 @@ margin-right: 30px;
 /* Главная страница */
 .main-page {
   background-color: #ffffff;
-  background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -173,9 +170,12 @@ margin-right: 30px;
 }
 
 .logo-welcome {
-display: block;
-margin: 0 auto;
-padding: 51px 371px 25px 371px;
+  display: block;
+  margin: 0 auto;
+  padding: 51px 371px 25px 371px;
+  background-image: url(../images/index-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .image {
