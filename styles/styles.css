@@ -73,7 +73,7 @@ body {
 
 .button-find {
   width: 575px;
-  padding: 13px 146px;
+  padding: 15px 160px;
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -632,12 +632,15 @@ width: 1057px;
 }
 
 .find-hotel {
+  margin: 0 auto;
   padding-top: 91px;
   padding-bottom: 93px;
+  width: 720px;
 }
 
 
 .find-hotel .interest {
+  margin: 0;
   color: #000000;
   font-family: PT Sans;
   font-weight: 700;
@@ -646,8 +649,6 @@ width: 1057px;
 }
 
 .find-hotel p {
-  margin-left: 240px;
-  margin-right: 240px;
   font-family: PT Sans;
   font-style: normal;
   font-weight: 400;
@@ -657,9 +658,7 @@ width: 1057px;
 }
 
 .find-hotel-one {
-  padding-left: 83px;
-  padding-top: 56px;
-  width: 575px;
+  margin-top: 56px;
 }
 
 .find-hotel-catalog {
