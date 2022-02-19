@@ -188,8 +188,8 @@ margin-right: 30px;
 }  
 
 .first-screen h2 {
-  padding: 63px 240px 31px 240px;
-  width: 720px;
+  margin: 0;
+  padding: 63px 240px 0px 240px;
   font-size: 30px;
   line-height: 36px;
   align-items: center;
@@ -197,10 +197,9 @@ margin-right: 30px;
 }
 
 .first-screen p {
-  padding-right: 240px;
+  margin: 0;
+  padding-top: 31px;
   padding-bottom: 80px;
-  padding-left: 240px;
-  width: 720px;
   font-size: 22px;
   line-height: 36px;
   align-items: center;
