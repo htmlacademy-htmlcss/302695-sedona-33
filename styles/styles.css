@@ -151,6 +151,11 @@ margin-right: 30px;
 
 /* Главная страница */
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .main-inner {
   padding: 0;
   margin: 0;
@@ -158,11 +163,6 @@ margin-right: 30px;
   background-image: url("../images/catalog-background-1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .logo-welcome {
@@ -177,9 +177,6 @@ margin-right: 30px;
 .image {
   display: block;
   margin: 0 auto;
-  margin-top: 51px;
-  margin-bottom: 25px;
-
 }  
 
 .first-screen {
@@ -213,7 +210,8 @@ margin-right: 30px;
 /* Преимущества */
 /* List */
 .advantages {
-margin: 0px;
+  margin: 0px;
+  text-align: center;
 } 
 
 .advantages-list {
