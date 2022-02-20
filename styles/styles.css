@@ -72,7 +72,6 @@ body {
 }
 
 .button-find {
-  width: 575px;
   padding: 15px 160px;
   font-family: inherit;
   font-size: 20px;
@@ -223,27 +222,24 @@ margin-right: 30px;
   text-align: center;
 }
 
-.advantages-list-2 {
-  display: flex;
-  width: 400px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-} 
-
 .advantages-item {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
   color: #333333;
   background: #ffffff;
 }
 
-.advantages-reason {
-  display: flex;
+/*
+.advantages-item .best-reason-2 {
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  background: #83B3D31F;
 }
-
+*/
+/* избавляемся от мусора
 .bester-reason {
   width: 400px;
   margin: 0;
@@ -263,7 +259,7 @@ background: #83B3D333;
 .bester-reason:nth-child(3) {
 background: #83B3D31F;
 }
-
+*/
 .blue-white {
   display: flex;
   width: 1200px;
@@ -287,10 +283,20 @@ background: #83B3D31F;
   background: #83B3D3;
 }
 
-.three-reason {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+.advantages-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+} 
+
+.advantages-item-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  color: #333333;
 }
 
 .three-reason:nth-child(1) {
@@ -305,32 +311,15 @@ flex-direction: row;
   background: #83B3D31F;
 }
 
-.last-reason {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
-}
-
 .last-three-reason {
-margin: 0 auto;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.bester-reason-2 {
-width: 400px;
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
-}
-
+/*
 .best-reason-2:nth-child(1) {
   background: #83B3D31F;
 }
@@ -341,7 +330,7 @@ text-align: center;
 
 .best-reason-2:nth-child(3) {
   background: #83B3D31F;
-}
+} */
 
 /* Title */ 
 .advantages-title {
@@ -396,12 +385,25 @@ text-transform: uppercase;
 }
 
 /* Рассылка */
-.newsletter {
+
+.with-out-background {
+  color: #ffffff;
+  margin: 0 auto;
   width: 1200px;
-  margin: 0;
-  padding: 0;
   padding-top: 94px;
-  padding-bottom: 93px;
+  padding-bottom: 94px;
+  background: #242424;
+  color:#ffffff;
+  text-align: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-image: url("../images/background.jpg");
   color:#ffffff;
   text-align: center;
@@ -409,14 +411,29 @@ text-transform: uppercase;
   background-repeat: no-repeat;
 }
 
-.newsletter-content {
-  display: flex;
-  flex-direction: column;
-  width: 800px;
-  padding-left: 240px;
+.newsletter h3 {
+  margin: 0;
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color:#ffffff;
 }
 
+.newsletter p {
+  margin-top: 29px;
+  margin-bottom: 46px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color:#ffffff;
+ }
+
 .field {
+  padding: 0;
+  margin: 0;
   width: 600px;
   height: 60px;
   font-family: PT Sans;
@@ -430,44 +447,24 @@ text-transform: uppercase;
 
 }  
 
-.newsletter h3 {
-  width: 720px;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: PT Sans;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  color:#ffffff;
-}
-
-.newsletter p {
-  margin-left: 29px;
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  color:#ffffff;
- }
-
 /* Подвал */
 .page-footer {
   color: #000000;
   background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 30px;
  }
 
 .page-footer-container {
   display: flex;
   width: 1200px;
-  margin: 0 auto;
+  max-height: 120px;
 }
 
 .footer-social {
 display: block;
 margin-left: 72px;
-margin-right: 61px;
-max-width: 107px;
+max-width: 150px;
 }
 
 .footer-social-list {
@@ -495,11 +492,6 @@ margin-right: 9px;
 
 .contacts-subtitle {
   width: 720px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  margin-right: 53px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   text-align: center;
 }
 
@@ -513,8 +505,8 @@ margin-right: 9px;
 }
 
 .footer-logo-htmlacademy {
-  width: 115px;
-  margin: 42px 72px 44px 0px;
+  width: 150px;
+  margin-right: 72px;
 }
 
 .inner-header {
@@ -659,6 +651,7 @@ width: 1057px;
 
 .find-hotel-one {
   margin-top: 56px;
+  margin-bottom: 5px;
 }
 
 .find-hotel-catalog {
