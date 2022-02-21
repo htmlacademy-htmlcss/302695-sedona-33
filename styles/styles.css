@@ -554,10 +554,12 @@ margin-right: 9px;
 .catalog-products {
   display: flex;
   flex-direction: column;
+  width: 1200px;
 }
 
 .catalog-column {
 width: 1057px;
+margin: 0 auto;
 }
 
 /* Список гостиниц с фильтрами */
@@ -585,7 +587,6 @@ width: 1057px;
   justify-content: space-between;
   width: 1057px;
   padding-top: 44px;
-  margin: 0;
 } 
 
 .sorting-container p {
@@ -654,9 +655,9 @@ width: 1057px;
 }
 
 .find-hotel-catalog {
-display: flex;
-flex-direction: column;
-width: 1056px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
 }
 
 .favourites-link {
@@ -680,7 +681,6 @@ width: 1056px;
 display: flex;
 flex-direction: row;
 width: 1056px;
-margin-left: 72px;
 }
 
 .pagination {
@@ -735,7 +735,7 @@ margin-left: 72px;
   display: block;
   width: 620px;
   border-radius: 4px;
-  margin: 32px 218px 30px 290px;
+  margin: 32px 218px 30px 218px;
   padding: 17px 0;
   border: none;
   color: #FFFFFF;
