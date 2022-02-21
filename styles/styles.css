@@ -73,7 +73,6 @@ body {
 
 .button-find {
   padding: 15px 160px;
-  font-family: inherit;
   line-height: 36px;
   background-color: #756257;
   border-radius: 10px;
@@ -82,8 +81,6 @@ body {
 .hotel-card-button {
   font-size: 16px;
   line-height: 21px;
-  font-weight: 700;
-  text-align: center;
   background-color: #756257;
 }
 
