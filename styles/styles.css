@@ -478,15 +478,41 @@ margin-right: 9px;
   margin-right: 72px;
 }
 
+/* Страница каталога */
+
+.inner-header-filter {
+  width: 1056px;
+  max-height: 408px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 0;
+}
+
+.filter-find-hotel {
+  display: flex;
+  margin: 45px 0 0 0;
+  padding: 0;
+}
+
+.catalog-filter {
+  display: flex;
+  width: 1056px;
+  padding: 0 0 90px 0;
+}
+
+.catalog-filter-group {
+  width: 290px;
+  margin-right: 81px;
+}
+
 .inner-header {
   width: 528px;
-  padding-top: 1px;
+  max-height: 68px;
+  /*padding-top: 35px;*/
 }
 
 .inner-header-title {
-  margin-bottom: 5px; 
-  width: 528px;
-  margin-top: 35px;
+  margin: 0; 
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -498,7 +524,8 @@ margin-right: 9px;
 /* Breadcrumbs */
 .breadcrumbs {
   display: flex;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   color: #242424;
   color: #ffffff;
@@ -508,6 +535,7 @@ margin-right: 9px;
 /* Link */
 .breadcrumbs-link {
   margin-right: 26px;
+  margin-bottom: 45px;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -519,11 +547,7 @@ margin-right: 9px;
 .catalog-products {
   display: flex;
   flex-direction: column;
-}
-
-.catalog-filter {
-  width: 1200px;
-  margin: 0 0 44px 0;
+  margin-top: 44px;
 }
 
 .catalog-column {
@@ -554,7 +578,7 @@ width: 1057px;
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 1057px;
-  padding: 0;
+  padding-top: 44px;
   margin: 0;
 } 
 
