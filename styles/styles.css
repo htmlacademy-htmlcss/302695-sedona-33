@@ -692,6 +692,7 @@ width: 1056px;
   padding: 0;
   background-color: #ffffff;
   list-style-type: none;
+  text-align: center;
 }
 
 .pagination-link {
