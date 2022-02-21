@@ -12,15 +12,15 @@
   <div class="wrapper-main-inner-container">
   <header class="main-page-header">
     <nav class="navigation">
-      <a class="navigation-logo" href="index-02.html">
+      <a class="navigation-logo" href="index.html">
         <img class="logo" src="images/logo-sedona.svg" width="139" height="70" alt="Здесь будет логотип Седоны">
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="index-02.html">Главное меню</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="index-02.html#about-sedona">О Седоне</a>
+          <a class="navigation-link" href="index.html#about-sedona">О Седоне</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link navigation-link-current" href="catalog-02.html">Гостиницы</a>
@@ -134,8 +134,10 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button" type="submit">Применить</button>
-          <input type="reset" value="Сбросить">
+          <div class="choose">
+            <button class="button" type="submit">Применить</button>
+            <input type="reset" value="Сбросить">
+          </div>
         </form>
         </div>
       </div>
@@ -216,9 +218,9 @@
           </div>
           <button class="button pagination-show-more" type="button">ЗАГРУЗИТЬ ЕЩЕ</button>
           <div class="catalog-pagination">
-            <ul class="pagination">
+            <ol class="pagination">
               <li class="pagination-item">
-                <a class="pagination-link pagination-current">1</a>
+                <a class="pagination-link pagination-current" aria-current="page">1</a>
               </li>
               <li class="pagination-item">
                 <a class="pagination-link" href="#">2</a>
@@ -235,7 +237,7 @@
               <li class="pagination-item">
                 <a class="pagination-link" href="#">10</a>
               </li>
-            </ul>
+            </ol>
           <div class="select-page">
             <p>Гостиниц на странице:</p>
             <select class="select-page-control" aria-label="Сортировка количества гостиниц">
