@@ -119,20 +119,20 @@ body {
 }
 
 .navigation-user {
-display: flex;
-max-width: 334px;
-margin-left: auto;
+  display: flex;
+  max-width: 334px;
+  margin-left: auto;
 }
 
 .navigation-user .navigation-link {
-min-width: 20px;
-min-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 /* логотип на странице каталога */
 .navigation-logo {
-display: block;
-margin-right: 30px;
+  display: block;
+  margin-right: 30px;
 }
 
 .main-container {
@@ -343,14 +343,12 @@ margin-right: 30px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-image: url("../images/background.jpg");
-  text-align: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .newsletter h3 {
   margin: 0;
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -360,9 +358,6 @@ margin-right: 30px;
 .newsletter p {
   margin-top: 29px;
   margin-bottom: 46px;
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color:#ffffff;
@@ -594,7 +589,6 @@ margin-right: 30px;
 }
 
 .find-hotel {
-  margin: 0 auto;
   padding-top: 91px;
   padding-bottom: 93px;
 }
