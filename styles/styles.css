@@ -72,6 +72,7 @@ body {
 }
 
 .button-find {
+  margin: 0 auto;
   padding: 15px 160px;
   line-height: 36px;
   background-color: #756257;
@@ -575,7 +576,7 @@ body {
   background-color: inherit;
 }
 
-.button.button-in-frame {
+.button .button-in-frame {
   text-decoration: underline;
 }
 
@@ -589,26 +590,29 @@ body {
 }
 
 .find-hotel {
+  margin: 0;
   padding-top: 91px;
-  padding-bottom: 93px;
+  padding-bottom: 108px;
 }
 
 
-.find-hotel .interest {
+.interest {
   margin: 0;
   font-size: 30px;
   line-height: 36px;
 }
 
-.find-hotel p {
+.explain {
+  margin: 0;
+  padding-top: 29px;
+  padding-bottom: 56px;
   font-size: 22px;
   line-height: 26px;
   color:#333333;
 }
 
 .find-hotel-one {
-  margin-top: 56px;
-  margin-bottom: 5px;
+  margin: 0;
 }
 
 .find-hotel-catalog {
@@ -740,8 +744,6 @@ body {
 .newsletter-inner-page h3 {
   width: 700px;
   padding: 0 0 0 50px;
-  font-family: PT Sans;
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color:#000000;
@@ -751,10 +753,7 @@ body {
   width: 700px;
   padding-left: 50px;
   padding-bottom: 20px;
-  font-family: PT Sans;
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  color:#333333;  
 }  
 
