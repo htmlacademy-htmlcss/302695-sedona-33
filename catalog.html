@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <div class="wrapper-main-inner-container">
   <header class="main-page-header">
     <nav class="navigation">
       <a class="navigation-logo" href="index.html">
@@ -15,17 +16,16 @@
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главное меню</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="index.html#about-sedona">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+          <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
         </li>
       </ul>
-
-      <ul class="navigation-user">
+      <ul class="navigation-list navigation-user">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">
@@ -52,21 +52,22 @@
   </header>
   <main class="main-container main-inner">
     <div class="page-container">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-              <span class="visually-hidden">Главная</span>
-            </a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
-      </header>
-      <section class="catalog-products">
-        <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами</h2>
+      <div class="inner-header-filter">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html">
+                <span class="visually-hidden">Главная</span>
+              </a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Гостиницы</a>
+            </li>
+          </ul>
+        </header>
+        <div class="filter-find-hotel">
+          <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -96,7 +97,6 @@
               </li>
             </ul>
           </fieldset>
-
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
             <ul class="catalog-filter-list">
@@ -133,10 +133,14 @@
               </li>
             </ul>
           </fieldset>
-
-          <button class="button" type="submit">Применить</button>
-          <input type="reset" value="Сбросить">
+          <div class="choose">
+            <button class="button" type="submit">Применить</button>
+            <input type="reset" value="Сбросить">
+          </div>
         </form>
+        </div>
+      </div>
+      <section class="catalog-products">
         <div class="catalog-column">
           <div class="sorting-container">
             <p>НАЙДЕНО ГОСТИНИЦ: <span class="number-of-hotel">38</span></p>
@@ -213,9 +217,9 @@
           </div>
           <button class="button pagination-show-more" type="button">ЗАГРУЗИТЬ ЕЩЕ</button>
           <div class="catalog-pagination">
-            <ul class="pagination">
+            <ol class="pagination">
               <li class="pagination-item">
-                <a class="pagination-link pagination-current">1</a>
+                <a class="pagination-link pagination-current" aria-current="page">1</a>
               </li>
               <li class="pagination-item">
                 <a class="pagination-link" href="#">2</a>
@@ -230,10 +234,9 @@
                 <a class="pagination-link" href="#">...</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">10</a>
+                <a class="pagination-link" href="#" value="10">10</a>
               </li>
-            </ul>
-          </div>
+            </ol>
           <div class="select-page">
             <p>Гостиниц на странице:</p>
             <select class="select-page-control" aria-label="Сортировка количества гостиниц">
@@ -246,13 +249,14 @@
               <option value="10">10</option>
             </select>
           </div>
+          </div>
         </div>
       </section>
 
     <section class="newsletter-inner-page">
       <h2 class="visually-hidden">Рассылка</h2>
       <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-      <p>Только полезная информация и никакого спама,
+      <p>Только полезная информация и никакого спама,<br>
         честное бойскаутское!
       </p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -267,7 +271,6 @@
     </section>
     </div>
   </main>
-
   <footer class="page-footer">
     <div class="page-footer-container">
       <section class="footer-social">
@@ -301,6 +304,7 @@
       </section>
     </div>
   </footer>
+  </div>
 </body>
 
 </html>

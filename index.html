@@ -6,14 +6,14 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
+  <div class="wrapper-main-page-container"> <!-- добавляет обертку всей главной странице-->
   <header class="main-page-header">
     <nav class="navigation">
       <img class="logo" src="images/logo-sedona.svg" width="139" height="70" alt="Здесь будет логотип Седоны">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Главное меню</a>
+          <a class="navigation-link" href="#">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="index.html#about-sedona">О Седоне</a>
@@ -22,8 +22,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-
-      <ul class="navigation-user">
+      <ul class="navigation-list navigation-user">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">
@@ -48,107 +47,123 @@
       </ul>
     </nav>
   </header>
-  <main class="main-container main-page">
+  <main class="main-container">
     <div class="page-container">
+      <div class="logo-welcome">
       <h1 class="visually-hidden">Великолепный городок Седона</h1>
       <img class="image" src="images/welcome-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону!">
-      <a id="about-sedona"></a>
-      <div class="first-screen">
-        <h2>СЕДОНА НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
-      <section class="advantages">
+      <!--<a id="about-sedona"></a> перемещает id в секцию class=advantages стр.60--> 
+      <section class="advantages" id="about-sedona"> <!--добавили якорь из шапки "О Седоне"-->
+        <div class="first-screen"> <!-- перенесли div first-screen в секцию преимуществ (для логики)-->
+          <h2>СЕДОНА НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
-          <li class="advantages-item best-reason">
+          <li class="advantages-item"> <!--первая причина-->
             <div class="blue-white">
-            <h3 class="advantages-title-2">НАСТОЯЩИЙ ГОРОДОК</h3>
-            <p class="advantages-description">
-              - №1 - <br>
-              Седона — не аттракцион
-              для туристов, там течёт
-              своя жизнь
-            </p>
+              <div class="two-reason">
+                <h3 class="advantages-title-2">НАСТОЯЩИЙ ГОРОДОК</h3>
+                <p class="number-reason">- №1 -</p>
+                <p class="advantages-description-white">
+                Седона — не аттракцион
+                для&nbsp;туристов, там течёт
+                своя&nbsp;жизнь
+                </p>
+              </div>
+              <img class="advantages-first-reason" src="images/photo-1.jpg" width="800" height="384"
+                alt="Вид из окна отеля">
+            </div>  
+            <ul class="advantages-list-2"> <!--подпункты к первой причине-->
+              <li class="advantages-item-2 three-reason">
+                <h3 class="advantages-title">ЖИЛЬЁ</h3>
+                <p class="advantages-description">
+                  Рекомендуем пожить
+                  в&nbsp;настоящем мотеле,
+                  всё&nbsp;как&nbsp;в&nbsp;кино!
+                </p>
+              </li>
+              <li class="advantages-item-2 three-reason">
+                <h3 class="advantages-title">ЕДА</h3>
+                <p class="advantages-description">
+                  Всегда заказывайте
+                  топовый&nbsp;фирменный бургер,
+                  вы не разочаруетесь!
+                </p>
+              </li>
+              <li class="advantages-item-2 three-reason">
+                <h3 class="advantages-title">СУВЕНИРЫ</h3>
+                <p class="advantages-description">
+                  Не только китайского,
+                  но&nbsp;и&nbsp;настоящего&nbsp;местного
+                  производства!
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li class="advantages-item"> <!--вторая причина-->
+            <div class="blue-white bridge">
+              <div class="two-reason">
+                <h3 class="advantages-title-2">ТАМ ЕСТЬ МОСТ&nbsp;ДЬЯВОЛА</h3>
+                <p class="number-reason">- №2 -</p>
+                <p class="advantages-description-white">
+                Да, по нему можно пройти!
+                Если&nbsp;вы&nbsp;осмелитесь,
+                разумеется&nbsp;
+                </p>
+              </div>
+              <img class="advantages-second-reason" src="images/photo-2.jpg" width="800" height="384" alt="Каньон">
             </div>
-            <img class="advantages-first-reason" src="images/photo-1.jpg" width="800" height="384"
-              alt="Вид из окна отеля">
           </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">ЖИЛЬЁ</h3>
-            <p class="advantages-description">
-              Рекомендуем пожить
-              в настоящем мотеле,
-              всё как в кино!
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">ЕДА</h3>
-            <p class="advantages-description">
-              Всегда заказывайте
-              топовый фирменный бургер,
-              вы не разочаруетесь!
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">СУВЕНИРЫ</h3>
-            <p class="advantages-description">
-              Не только китайского,
-              но и настоящего местного
-              производства!
-            </p>
-          </li>
-          <li class="advantages-item best-reason">
-            <div class="blue-white">
-            <h3 class="advantages-title-2">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
-            <p class="advantages-description">
-              - №2 - <br>
-              Да, по нему можно пройти!
-              Если вы осмелитесь,
-              разумеется
-            </p>
+          <li class="advantages-item best-reason-2"> <!--третья причина-->
+            <div class="last-three-reason">
+              <h3 class="advantages-title-3">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+              <p class="number-reason-black"> - №3 - </p>
+              <p class="advantages-description last-reason"> 
+                Все достопримечательности
+                находятся очень близко
+              </p>
             </div>
-            <img class="advantages-second-reason" src="images/photo-2.jpg" width="800" height="384" alt="Каньон">
           </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-            <p class="advantages-description">
-              - №3 - <br>
-              Все достопримечательности
-              находятся очень близко
-            </p>
+          <li class="advantages-item best-reason-2"> <!--четверная причина-->
+            <div class="last-three-reason">
+              <h3 class="advantages-title-3">КРАСИВАЯ ДОРОГА</h3>
+              <p class="number-reason-black"> - №4 - </p>
+              <p class="advantages-description last-reason">
+                Ехать в Седону из Лас-Вегаса
+                совсем не скучно!
+              </p>
+            </div>
           </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">КРАСИВАЯ ДОРОГА</h3>
-            <p class="advantages-description">
-              - №4 - <br>
-              Ехать в Седону из Лас-Вегаса
-              совсем не скучно!
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">МАЛО ТУРИСТОВ</h3>
-            <p class="advantages-description">
-              - №5 - <br>
-              Большинство едет в Гранд
-              Каньон и толпится там
-            </p>
+          <li class="advantages-item best-reason-2"> <!--пятая причина-->
+            <div class="last-three-reason">
+              <h3 class="advantages-title-3">МАЛО ТУРИСТОВ</h3>
+              <p class="number-reason-black"> - №5 - </p>
+              <p class="advantages-description last-reason">
+                Большинство едет в Гранд
+                Каньон и толпится там
+              </p>
+            </div>
           </li>
         </ul>
       </section>
       <div class="find-hotel-newsletter">
         <section class="find-hotel">
           <h2 class="visually-hidden">Поиск гостиницы</h2>
-          <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-          <p>Укажите предполагаемые даты поездки,<br>
+          <h3 class="interest">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+          <p class="explain">Укажите предполагаемые даты поездки,<br>
             и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <a class="button button-find" href="#">Поиск гостиницы в Седоне</a>
+          <p class="find-hotel-one">
+            <a class="button button-find" href="#">Поиск гостиницы в Седоне</a>
+          </p>
         </section>
-        <section class="newsletter">
+        <section class="newsletter with-out-background">
           <h2 class="visually-hidden">Рассылка</h2>
           <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-          <p>Только полезная информация и никакого спама,
-            честное бойскаутское!
+          <p>Только полезная информация и никакого спама,<br>
+            честное&nbsp;бойскаутское!&nbsp;
           </p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="newsletter-email"></label>
@@ -195,5 +210,6 @@
       </section>
     </div>
   </footer>
+</div>
 </body>
 </html>
