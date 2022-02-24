@@ -702,12 +702,15 @@ body {
 .hotel-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  gap: 18px;
+  row-gap: 18px;
+  column-gap: 10px;
   list-style-type: none;
   margin: 0;
   margin-bottom: 34px;
   padding: 0;
 }
+
+/* Item */
 
 .hotel-card-link {
   font-weight: 700;
