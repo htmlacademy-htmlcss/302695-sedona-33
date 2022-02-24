@@ -89,6 +89,19 @@ body {
   border-radius: 4px;
 }
 
+.button-choose {
+  width: 160px;
+  margin-top: 34px;
+  margin-bottom: 20px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
 /* Pages */
 /* Шапка */
 .main-page-header {
