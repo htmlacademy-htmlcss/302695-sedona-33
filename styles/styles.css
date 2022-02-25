@@ -565,14 +565,6 @@ input[type="range"] {
   width: 287px;
 }
 
-.reboot {
-  -webkit-appearance: none;
-}
-/*
-input[type="reset"] {
-  color: #ffffff;
-}*/
-
 .choose {
   display: flex;
   flex-direction: column;
