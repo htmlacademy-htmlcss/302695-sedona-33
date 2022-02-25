@@ -493,12 +493,34 @@ body {
   padding-right: 70px;
   padding-top: 30px;
   margin-bottom: 44px;
+  color: #ffffff;
 }
 
 .filter-find-hotel {
   display: flex;
   margin: 71px 0 0 0;
   padding: 0;
+}
+
+.catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.structure {
+  width: 150px;
+  margin-right: 67px;
+}
+
+.dwelling {
+  width: 145px;
+  margin-right: 167px;
+}
+
+.housing-cost {
+  width: 287px;
+  margin-right: 81px;
 }
 
 .catalog-filter {
@@ -519,16 +541,43 @@ body {
   margin-bottom: 13px;
 }
 
+.cost-selection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 287px;
+}
+
+.min-cost {
+  width: 143px;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 32px;
+}
+
+.max-cost {
+  width: 144px;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 32px;
+}
+
+input[type="range"] {
+  width: 287px;
+}
+
+.reboot {
+  -webkit-appearance: none;
+}
+/*
+input[type="reset"] {
+  color: #ffffff;
+}*/
+
 .choose {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
   width: 160px;
-}
-
-.catalog-filter-group {
-  width: 290px;
-  margin-right: 81px;
 }
 
 .inner-header {
@@ -604,7 +653,6 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 1057px;
-  padding-top: 44px;
 } 
 
 .sorting-container p {
