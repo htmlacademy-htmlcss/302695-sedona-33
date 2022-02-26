@@ -117,6 +117,7 @@ body {
 .navigation {
   display: flex;
   margin: 0 auto;
+  max-height: 66px;
 }
 
 .navigation-list {
@@ -427,8 +428,9 @@ body {
 .page-footer {
   color: #000000;
   background-color: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  max-height: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
  }
 
 .page-footer-container {
