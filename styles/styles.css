@@ -436,6 +436,7 @@ body {
 .page-footer-container {
   display: flex;
   max-height: 120px;
+  align-items: baseline;
 }
 
 .footer-social {
@@ -455,11 +456,7 @@ body {
 .footer-social-item {
   width: 20px;
   height: 16px;
-  margin-right: 9px;
-}
-
-.footer-social-item:nth-child(1) {
-  margin-left: 72px;
+  margin-right: 29px;
 }
 
 .footer-social-list .footer-social-item a {
@@ -484,6 +481,10 @@ body {
 .footer-logo-htmlacademy {
   width: 115px;
   margin-left: 53px;
+}
+
+.footer-logo-htmlacademy p {
+  margin: 0;
 }
 
 /* Страница каталога */
