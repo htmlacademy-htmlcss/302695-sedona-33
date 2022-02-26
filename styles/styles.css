@@ -182,7 +182,8 @@ body {
 .logo-welcome {
   display: block;
   margin: 0 auto;
-  padding: 51px 371px 25px 371px;
+  padding-top: 51px;
+  padding-bottom: 25px;
   background-image: url(../images/index-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -196,14 +197,14 @@ body {
 .first-screen {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 63px 240px 80px 240px;
   margin: 0;
   background-color: #ffffff;
 }  
 
 .first-screen h2 {
   margin: 0;
-  padding: 63px 240px 0px 240px;
+  /*padding: 63px 240px 0px 240px;*/
   font-size: 30px;
   line-height: 36px;
   align-items: center;
@@ -213,7 +214,6 @@ body {
 .first-screen p {
   margin: 0;
   padding-top: 31px;
-  padding-bottom: 80px;
   font-size: 22px;
   line-height: 36px;
   align-items: center;
