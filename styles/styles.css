@@ -617,11 +617,12 @@ input[type="range"] {
 
 .catalog-column {
   width: 1057px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* Список гостиниц с фильтрами */
 .catalog-filter-title {
+  padding: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
