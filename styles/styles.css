@@ -433,13 +433,11 @@ body {
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
   max-height: 120px;
 }
 
 .footer-social {
   display: block;
-  margin-left: 72px;
   margin-right: 18px;
   max-width: 150px;
 }
@@ -470,7 +468,6 @@ body {
 .contacts-subtitle {
   width: 720px;
   text-align: center;
-  margin-right: 53px;
 }
 
 .contacts-subtitle a {
@@ -483,9 +480,8 @@ body {
 }
 
 .footer-logo-htmlacademy {
-  width: 150px;
-  margin-right: 72px;
-  margin-left: 18px;
+  width: 115px;
+  margin-left: 53px;
 }
 
 /* Страница каталога */
