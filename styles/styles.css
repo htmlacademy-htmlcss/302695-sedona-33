@@ -102,6 +102,11 @@ body {
   text-align: center;
 }
 
+.indent {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 /* Pages */
 /* Шапка */
 .main-page-header {
@@ -111,7 +116,6 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
   margin: 0 auto;
 }
 
