@@ -193,8 +193,7 @@ body {
 
 .logo-welcome {
   margin: 0 auto;
-  padding-top: 51px;
-  padding-bottom: 25px;
+  padding: 51px 371px 25px 371px;
   background-image: url(../images/index-background.jpg);
   background-size: cover; /* вместо 100% auto */
   background-repeat: no-repeat;
