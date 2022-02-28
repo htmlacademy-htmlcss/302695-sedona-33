@@ -31,7 +31,6 @@ body {
 }
 
 .wrapper-main-page-container {
-  width: 1200px;
   margin: 0 auto;
   padding: 0;
   flex-grow: 1;
@@ -193,13 +192,13 @@ body {
 }
 
 .logo-welcome {
-  display: block;
   margin: 0 auto;
   padding-top: 51px;
   padding-bottom: 25px;
   background-image: url(../images/index-background.jpg);
-  background-size: 100% auto;
+  background-size: cover; /* вместо 100% auto */
   background-repeat: no-repeat;
+  color: #ffffff;
 }
 
 .image {
