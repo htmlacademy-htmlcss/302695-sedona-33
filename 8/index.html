@@ -10,7 +10,7 @@
 <body>
   <div class="wrapper-main-page-container"> <!-- добавляет обертку всей главной странице-->
   <header class="main-page-header">
-    <nav class="navigation">
+    <nav class="navigation indent">
       <img class="logo" src="images/logo-sedona.svg" width="139" height="70" alt="Здесь будет логотип Седоны">
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -78,28 +78,34 @@
             </div>  
             <ul class="advantages-list-2"> <!--подпункты к первой причине-->
               <li class="advantages-item-2 three-reason">
-                <h3 class="advantages-title">ЖИЛЬЁ</h3>
-                <p class="advantages-description">
-                  Рекомендуем пожить
-                  в&nbsp;настоящем мотеле,
-                  всё&nbsp;как&nbsp;в&nbsp;кино!
-                </p>
+                <div class="three-submenu">
+                  <h3 class="advantages-title">ЖИЛЬЁ</h3>
+                  <p class="advantages-description">
+                    Рекомендуем пожить
+                    в&nbsp;настоящем мотеле,
+                    всё&nbsp;как&nbsp;в&nbsp;кино!
+                  </p>
+                </div>
               </li>
               <li class="advantages-item-2 three-reason">
-                <h3 class="advantages-title">ЕДА</h3>
-                <p class="advantages-description">
-                  Всегда заказывайте
-                  топовый&nbsp;фирменный бургер,
-                  вы не разочаруетесь!
-                </p>
+                <div class="three-submenu">
+                  <h3 class="advantages-title">ЕДА</h3>
+                  <p class="advantages-description">
+                    Всегда заказывайте
+                    топовый&nbsp;фирменный бургер,
+                    вы не разочаруетесь!
+                  </p>
+                </div>
               </li>
               <li class="advantages-item-2 three-reason">
-                <h3 class="advantages-title">СУВЕНИРЫ</h3>
-                <p class="advantages-description">
-                  Не только китайского,
-                  но&nbsp;и&nbsp;настоящего&nbsp;местного
-                  производства!
-                </p>
+                <div class="three-submenu">
+                  <h3 class="advantages-title">СУВЕНИРЫ</h3>
+                  <p class="advantages-description">
+                    Не только китайского,
+                    но&nbsp;и&nbsp;настоящего&nbsp;местного
+                    производства!
+                  </p>
+                </div>
               </li>
             </ul>
           </li>
@@ -153,8 +159,8 @@
         <section class="find-hotel">
           <h2 class="visually-hidden">Поиск гостиницы</h2>
           <h3 class="interest">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-          <p class="explain">Укажите предполагаемые даты поездки,<br>
-            и мы покажем вам лучшие предложения гостиниц в Седоне
+          <p class="explain">Укажите предполагаемые даты поездки,
+            и&nbsp;мы&nbsp;покажем&nbsp;вам&nbsp;лучшие предложения гостиниц в Седоне
           </p>
           <p class="find-hotel-one">
             <a class="button button-find" href="#">Поиск гостиницы в Седоне</a>
@@ -163,8 +169,8 @@
         <section class="newsletter with-out-background">
           <h2 class="visually-hidden">Рассылка</h2>
           <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-          <p>Только полезная информация и никакого спама,<br>
-            честное&nbsp;бойскаутское!&nbsp;
+          <p class="indent-newsletter">Только полезная информация и никакого спама,
+            честное&nbsp;бойскаутское!
           </p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="newsletter-email"></label>
@@ -179,7 +185,7 @@
     </div>
   </main>
   <footer class="page-footer">
-    <div class="page-footer-container">
+    <div class="page-footer-container indent">
       <section class="footer-social">
         <h2 class="visually-hidden">Давайте дружить</h2>
         <ul class="footer-social-list">
