@@ -193,12 +193,13 @@ body {
 
 .logo-welcome {
   margin: 0 auto;
-  padding: 51px 371px 25px 371px;
+  padding-top: 51px;
+  padding-bottom: 25px;
   background-image: url(../images/index-background.jpg);
   background-size: cover; /* вместо 100% auto */
   background-repeat: no-repeat;
   color: #ffffff;
-  background-color: #e5e5e5;
+  background-color: #83B3D3;
 }
 
 .image {
