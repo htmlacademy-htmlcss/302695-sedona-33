@@ -32,9 +32,8 @@ body {
 
 .wrapper-main-page-container {
   margin: 0 auto;
-  padding: 0;
-  flex-grow: 1;
   background: #ffffff;
+  min-height: 100%;
 }
 
 .wrapper-main-inner-container {
@@ -198,6 +197,7 @@ body {
   background-size: cover; /* вместо 100% auto */
   background-repeat: no-repeat;
   color: #ffffff;
+  background-color: #e5e5e5;
 }
 
 .image {
@@ -438,7 +438,6 @@ body {
 
 .page-footer-container {
   display: flex;
-  max-height: 120px;
   align-items: baseline;
 }
 
