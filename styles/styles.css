@@ -106,15 +106,12 @@ body {
 }
 
 .indent-advantages {
-  /*margin: 0;*/
   padding-left: 75px;
   padding-right: 75px;
 }
 
 .indent-newsletter {
   margin: 0;
-  padding-left: 300px;
-  padding-right: 300px;
 }
 
 /* Pages */
@@ -196,10 +193,11 @@ body {
   padding-top: 51px;
   padding-bottom: 25px;
   background-image: url(../images/index-background.jpg);
-  background-size: cover; /* вместо 100% auto */
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83B3D370;
+
 }
 
 .image {
@@ -210,22 +208,29 @@ body {
 .first-screen {
   display: flex;
   flex-direction: column;
-  padding: 63px 240px 80px 240px;
+  padding-top: 63px;
+  padding-bottom: 75px;
   margin: 0;
   background-color: #ffffff;
 }  
 
 .first-screen h2 {
   margin: 0;
+  padding-bottom: 31px;
   font-size: 30px;
   line-height: 36px;
   align-items: center;
   color: #000000;
 }
 
+.line-break {
+  display: inline-block;
+  width: 100%;
+}
+
 .first-screen p {
   margin: 0;
-  padding-top: 31px;
+  padding-bottom: 5px;
   font-size: 22px;
   line-height: 36px;
   align-items: center;
@@ -277,6 +282,18 @@ body {
   background: #83B3D3;
 }
 
+.advantages-first-reason {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.advantages-second-reason {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .advantages-list-2 {
   display: flex;
   flex-wrap: wrap;
@@ -323,7 +340,6 @@ body {
 }
 
 .advantages-title-2 {
-  width: 200px;
   margin: 0;
   padding-bottom: 30px;
   font-size: 24px;
@@ -365,23 +381,18 @@ body {
 
 /* Рассылка */
 
-.with-out-background {
-  background: #242424;
-  color:#ffffff;
-}
-
 .newsletter {
   margin: 0 auto;
-  width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 70px;
   background-image: url("../images/background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: #83B3D370;
 }
 
 .newsletter h3 {
   margin: 0;
+  padding-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -389,8 +400,7 @@ body {
 }
 
 .newsletter p {
-  margin-top: 29px;
-  margin-bottom: 46px;
+  padding-bottom: 46px;
   font-size: 22px;
   line-height: 26px;
   color:#ffffff;
@@ -433,7 +443,6 @@ body {
 .page-footer {
   color: #000000;
   background-color: #ffffff;
-  max-height: 120px;
   padding-top: 40px;
   padding-bottom: 40px;
  }
@@ -446,7 +455,7 @@ body {
 .footer-social {
   display: block;
   margin-right: 18px;
-  max-width: 150px;
+  width: 210px;
 }
 
 .footer-social-list {
@@ -469,7 +478,7 @@ body {
 }
 
 .contacts-subtitle {
-  width: 720px;
+  width: 600px;
   text-align: center;
 }
 
@@ -483,12 +492,13 @@ body {
 }
 
 .footer-logo-htmlacademy {
-  width: 115px;
+  width: 175px;
   margin-left: 53px;
 }
 
 .footer-logo-htmlacademy p {
   margin: 0;
+  padding-left: 60px;
 }
 
 /* Страница каталога */
@@ -709,13 +719,14 @@ input[type="range"] {
 
 .interest {
   margin: 0;
+  padding-bottom: 29px;
   font-size: 30px;
   line-height: 36px;
 }
 
 .explain {
   margin: 0;
-  padding: 29px 300px 56px 300px;
+  padding-bottom: 56px;
   font-size: 22px;
   line-height: 26px;
   color:#333333;
