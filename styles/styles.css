@@ -37,7 +37,6 @@ body {
 }
 
 .wrapper-main-inner-container {
-  width: 1200px;
   margin: 0 auto;
   padding: 0;
   flex-grow: 1;
@@ -164,6 +163,7 @@ body {
 .navigation-logo {
   display: block;
   margin-right: 30px;
+  margin-bottom: -4px;
 }
 
 .main-container {
@@ -180,12 +180,7 @@ body {
 }
 
 .main-inner {
-  padding: 0;
-  margin: 0;
   background-color: #ffffff;
-  background-image: url("../images/catalog-background-1.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 .logo-welcome {
@@ -504,15 +499,19 @@ body {
 /* Страница каталога */
 
 .inner-header-filter {
-  max-height: 408px;
-  padding-top: 30px;
-  margin-bottom: 44px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 83px;
   color: #ffffff;
+  background-image: url("../images/catalog-background-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #83B3D370;
 }
 
 .filter-find-hotel {
   display: flex;
-  margin: 71px 0 0 0;
+  margin: 45px 0 0 0;
   padding: 0;
 }
 
@@ -541,7 +540,7 @@ body {
   display: flex;
   width: 1056px;
   color: #ffffff;
-  padding: 0 0 83px 0;
+  padding: 0;
 }
 
 .catalog-filter-list {
@@ -582,20 +581,19 @@ input[type="range"] {
 .choose {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
   width: 160px;
+  padding-top: 45px;
 }
 
 .inner-header {
   width: 528px;
-  max-height: 68px;
 }
 
 .inner-header-title {
   margin: 0; 
   font-weight: 700;
   font-size: 60px;
-  line-height: 78px;
+  line-height: 68px;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
@@ -607,6 +605,8 @@ input[type="range"] {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  font-size: 16px;
+  line-height: 21px;
   color: #242424;
   color: #ffffff;
   list-style-type: none;
@@ -658,6 +658,7 @@ input[type="range"] {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding-top: 44px;
 } 
 
 .sorting-container p {
@@ -934,30 +935,27 @@ input[type="range"] {
 }
 
 .newsletter-inner-page {
-  display: flex;
-  margin: 73px 200px 140px 200px;
-  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 73px;
+  padding-bottom: 140px;
   font-style: normal;
   font-size: 22px;
   line-height: 26px;
   background-color: #ffffff;
   text-align: center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 .newsletter-inner-page h3 {
-  width: 700px;
-  padding: 0 0 0 50px;
+  margin: 0;
+  padding-bottom: 46px;
   font-size: 30px;
   line-height: 36px;
   color:#000000;
 }
 
 .newsletter-inner-page p {
-  width: 700px;
-  padding-left: 50px;
-  padding-bottom: 20px;
+  margin: 0;
+  padding-bottom: 46px;
   font-size: 22px;
   line-height: 26px;
 }  
