@@ -162,6 +162,10 @@ body {
   min-height: 20px;
 }
 
+.logo {
+  position: relative;
+}
+
 /* логотип на странице каталога */
 .navigation-logo {
   display: block;
