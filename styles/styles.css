@@ -475,7 +475,7 @@ body {
   color: #000000;
   text-decoration: none;
 }
-
+/*
 .footer-social-link {
   display: block;
   height: 18px;
@@ -496,7 +496,7 @@ body {
 .footer-social-yt {
   background-image: url("../images/social-youtube.svg");
 }
-
+*/
 .contacts-subtitle {
   width: 600px;
   text-align: center;
