@@ -32,8 +32,10 @@ body {
 
 .wrapper-main-page-container {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   background: #ffffff;
-  min-height: 100%;
 }
 
 .wrapper-main-inner-container {
@@ -41,7 +43,8 @@ body {
   padding: 0;
   flex-grow: 1;
   background: #ffffff;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .visually-hidden {
@@ -167,17 +170,14 @@ body {
 }
 
 .main-container {
+  width: 1200px;
+  margin: 0 auto;
   flex-grow: 1;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 /* Главная страница */
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .main-inner {
   background-color: #ffffff;
@@ -659,6 +659,7 @@ input[type="range"] {
   flex-wrap: nowrap;
   justify-content: space-between;
   padding-top: 44px;
+  padding-bottom: 53px;
 } 
 
 .sorting-container p {
@@ -742,7 +743,6 @@ input[type="range"] {
 .find-hotel-catalog {
   display: flex;
   flex-direction: column;
-  margin-top: 53px;
 }
 
 .favourites-link {
