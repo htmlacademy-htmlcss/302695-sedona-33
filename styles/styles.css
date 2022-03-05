@@ -467,13 +467,34 @@ body {
 
 .footer-social-item {
   width: 20px;
-  height: 16px;
+  height: 20px;
   margin-right: 29px;
 }
 
 .footer-social-list .footer-social-item a {
   color: #000000;
   text-decoration: none;
+}
+
+.footer-social-link {
+  display: block;
+  height: 18px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 18px;
+}
+
+.footer-social-tw {
+  background-image: url("../images/social-twitter.svg");
+}
+
+.footer-social-fb {
+  background-image: url("../images/social-facebook.svg");
+}
+
+.footer-social-yt {
+  background-image: url("../images/social-youtube.svg");
 }
 
 .contacts-subtitle {
