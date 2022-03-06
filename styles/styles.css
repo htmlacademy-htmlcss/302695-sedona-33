@@ -516,6 +516,14 @@ body {
   padding-left: 60px;
 }
 
+.htmlacademy-link {
+  background-color: #ffffff;
+}
+
+.htmlacademy-link svg {
+  fill: #000000;
+}
+
 /* Страница каталога */
 
 .inner-header-filter {
@@ -735,14 +743,15 @@ input[type="range"] {
 }
 
 .card-grid-toggle-current {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  background-color: #ffffff;
   border: 2px solid #000000;
-  border-radius: 4px;
+}
+
+.card-grid-toggle svg {
+  fill: #000000;
+}
+
+.card-grid-toggle-current svg {
+  fill: #000000;
 }
 
 /* Поиск гостиницы */
