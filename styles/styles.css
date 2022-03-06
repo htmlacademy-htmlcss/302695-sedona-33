@@ -140,6 +140,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: block;
   padding: 20px 17px;
   font-weight: 700;
@@ -151,8 +152,13 @@ body {
   text-decoration: none;
 }
 
+.navigation-link-whant-there {
+  padding-left: 20px;
+  right: auto;
+  margin: auto 0;
+}
+
 .navigation-user {
-  display: flex;
   max-width: 334px;
   margin-left: auto;
 }
@@ -160,6 +166,16 @@ body {
 .navigation-user .navigation-link {
   min-width: 20px;
   min-height: 20px;
+}
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #ffffff;
 }
 
 .logo {
@@ -476,25 +492,8 @@ body {
   text-decoration: none;
 }
 /*
-.footer-social-link {
-  display: block;
-  height: 18px;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px 18px;
-}
+.social-icon {
 
-.footer-social-tw {
-  background-image: url("../images/social-twitter.svg");
-}
-
-.footer-social-fb {
-  background-image: url("../images/social-facebook.svg");
-}
-
-.footer-social-yt {
-  background-image: url("../images/social-youtube.svg");
 }
 */
 .contacts-subtitle {
@@ -727,6 +726,16 @@ input[type="range"] {
   border: 2px solid #E6E6E6;
   border-radius: 4px;
 }
+
+.card-grid-toggle {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+}
+
 
 /* Поиск гостиницы */
 .find-hotel-newsletter {
