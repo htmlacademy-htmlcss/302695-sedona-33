@@ -87,14 +87,11 @@ body {
   background-color: #615048;
 }
 
-/* .navigation-button-whant-there:focus {
-  position: relative;
-  background-color: #615048;
+.navigation-button-whant-there:focus {
   outline: 3px solid #83B3D3;
+  background-color: #615048;
   border-radius: 4px;
-  width: 160px;
-  height: 37px;
-} */
+} 
 
 .button-find {
   margin: 0 auto;
@@ -215,7 +212,7 @@ body {
   color: #756257;
 }
 
-.navigation-link:hover .navigation-icon {
+.navigation-link:hover {
   fill: #756257;
 }
 
@@ -239,16 +236,20 @@ body {
   margin: auto;
 }
 
+.navigation-icon:hover {
+  fill:#756257;
+}
+
+.navigation-icon:focus {
+  fill-opacity: 0;
+}
+
 .header-icon-1 {
   fill: #000000;
 }
 
 .header-icon-2 {
   fill: #000000;
-}
-
-.header-icon-3 {
-  fill: #756257;
 }
 
 .logo {
