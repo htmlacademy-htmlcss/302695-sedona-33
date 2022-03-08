@@ -286,6 +286,7 @@ body {
 
 .logo-welcome {
   margin: 0 auto;
+  position: relative;
   padding-top: 51px;
   padding-bottom: 25px;
   background-image: url(../images/index-background.jpg);
@@ -295,23 +296,22 @@ body {
   background-color: #83B3D370;
 }
 
-
+.logo-welcome::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../images/divider-index-background.svg);
+  width: 1200px;
+  height: 57px;
+  left: 1px;
+  bottom: 0;
+}
 
 .image {
   display: block;
   margin: 0 auto;
-}  
-/*
-.logo-welcome::after {
-  content: '';
-  display: block;
-  margin: 0 auto;
-  background-image: url(../images/divider-index-background.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 1200px;
-  height: 57px;
-}*/
+  padding-bottom: 25px;
+}
 
 .first-screen {
   display: flex;
