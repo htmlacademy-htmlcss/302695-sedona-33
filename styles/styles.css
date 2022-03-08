@@ -99,6 +99,7 @@ body {
   line-height: 30px;
   background-color: #756257;
   border-radius: 10px;
+  border: none;
 } 
 
 .button-find:hover {
@@ -107,7 +108,7 @@ body {
 
 .button-find:focus {
   background-color: #615048;
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
   border-radius: 10px;
   width: 575px;
   height: 60px;
@@ -292,8 +293,9 @@ body {
   background-repeat: no-repeat;
   color: #ffffff;
   background-color: #83B3D370;
-
 }
+
+
 
 .image {
   display: block;
@@ -640,6 +642,20 @@ body {
   fill: #68A2CA;
 }
 
+.footer-social-link:focus {
+  fill:#68A2CA;
+  outline: 3px solid #83B3D3;
+  outline-offset: 7px;
+  border-radius: 1px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link:active {
+  fill: #83B3D333;
+
+}
+
 .footer-social-item {
   width: 20px;
   height: 20px;
@@ -671,11 +687,14 @@ body {
 
 .contacts-subtitle a:focus {
   color: #756257;
-  border: 3px solid #83B3D3;
-  border-radius: 10px;
-  width: 361px;
-  height: 70px;
+  outline: 3px solid #83B3D3;
+  outline-offset: 9px;
+  border-radius: 3px;
   align-items: center;
+}
+
+.contacts-subtitle a:active {
+  color: #75625733;
 }
 
 .footer-logo-htmlacademy {
@@ -689,15 +708,25 @@ body {
 }
 
 .htmlacademy-link {
+  fill: #000000;
   background-color: #ffffff;
 }
 
-.htmlacademy-link svg {
-  fill: #000000;
+.htmlacademy-link:hover {
+  fill: #756257;
 }
 
-.htmlacademy-link svg:hover {
-  fill: #756257;
+.htmlacademy-link:focus {
+  fill:#756257;
+  outline: 3px solid #83B3D3;
+  outline-offset: 13px;
+  border-radius: 1px;
+  width: 115px;
+  height: 34px;
+}
+
+.htmlacademy-link:active {
+  fill: #75625733;
 }
 
 /* Страница каталога */
