@@ -125,14 +125,34 @@
             </ul>
           </fieldset>
           <fieldset class="catalog-filter-group housing-cost">
-            <legend class="catalog-filter-title">Стоимость, ₽</legend>
-            <ul class="catalog-filter-list">
+            <legend class="catalog-filter-title cost">Стоимость, ₽</legend>
+            <div class="range">
+              <div class="range-wrapper-inputs">
+                <label class="catalog-filter-label">
+                  <input class="range-input min-cost" type="number" value="0" name="min-price">
+                </label>
+                <label class="catalog-filter-label">
+                  <input class="range-input max-cost" type="number" value="9000" name="max-price">
+                </label>
+              </div>
+              <div class="range-scale">
+                <div class="range-bar" style="left: 0; width: 227px; right: 60px">
+                  <button class="range-toggle toggle-min">
+                    <span class="visually-hidden">Изменить минимальную цену.</span>
+                  </button>
+                  <button class="range-toggle toggle-max">
+                    <span class="visually-hidden">Изменить максимальную цену.</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--<ul class="catalog-filter-list">
               <li class="cost-selection">
                 <label class="min-cost"><input type="type" placeholder="0             от"></label>
                 <label class="max-cost"><input type="email" placeholder="9000         до"></label>
                 <input type="range" min="0" max="287" step="1" value="227">
               </li>
-            </ul>
+            </ul>-->
           </fieldset>
           <div class="choose">
             <button class="button button-choose" type="submit">Применить</button>
