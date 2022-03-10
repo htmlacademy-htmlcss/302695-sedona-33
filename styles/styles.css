@@ -786,7 +786,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .modal {
@@ -831,6 +830,7 @@ body {
 } 
 
 .modal-button {
+  position: relative;
   width: 100%;
   margin: 0;
   margin-top: 40px;
@@ -839,6 +839,19 @@ body {
   border: none;
   border-radius: 10px;
 }
+/* 
+.modal-button::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  background-image: url(../images/group.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+} */
 
 .modal-form-label {
   width: 155px;
@@ -874,7 +887,6 @@ body {
   width: 575px;
   position: relative;
   margin: 0;
-  /* margin-bottom: 40px; */
 }
 
 .modal-field {
@@ -922,7 +934,7 @@ body {
   position: absolute;
   top: 18px;
   right: 17px;
-  background-image: url(../images/date-1.svg);
+  background-image: url(../images/group.svg);
   background-position: right;
   background-repeat: no-repeat;
   width: 15px;
