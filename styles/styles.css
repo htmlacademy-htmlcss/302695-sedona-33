@@ -909,6 +909,19 @@ body {
   background-color: #f2f2f2;
 }
 
+.modal-field::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  background-image: url(../images/group.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
 .modal-field-2 {
   position: absolute;
   right: 0;
@@ -928,17 +941,28 @@ body {
   text-align: center;
 }
 
-.modal-field::after {
+.modal-field-2::before {
   content: '';
-  display: block;
   position: absolute;
   top: 18px;
-  right: 17px;
-  background-image: url(../images/group.svg);
-  background-position: right;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
+  right: 19px;
+  width: 13px;
+  height: 1px;
+  background-color: #000000;
+}
+
+.modal-field-2::after {
+  content: '';
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  width: 13px;
+  height: 1px;
+  background-color: #000000;
+}
+
+.modal-field-2:after {
+  transform: rotate(90deg);
 }
 
 .explanations {
@@ -1260,12 +1284,34 @@ input[type="range"] {
 }
 
 .control {
+  position: relative;
+  display: block;
+  /* padding-left: 36px; */
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
+}
+
+
+
+.control-mark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/tick-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.control-mark:hover {
+  background-color: #FFFFFF99;
 }
 
 .sorting-container {
