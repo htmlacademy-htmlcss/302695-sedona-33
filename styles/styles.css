@@ -781,6 +781,14 @@ body {
   background-color:#F2F2F2CC;
 }
 
+.modal-find-hotel {
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
 .modal {
   position: relative;
   margin: auto;
@@ -789,7 +797,7 @@ body {
 }
 
 .modal-auth {
-  width: 715px;
+  width: 575px;
 }
 
 .modal-title {
@@ -820,6 +828,59 @@ body {
   background-position: center;
   cursor: pointer;
 } 
+
+.modal-button {
+  width: 100%;
+  margin: 0;
+  margin-top: 40px;
+  position: relative;
+  padding: 15px 218px;
+  border: none;
+  border-radius: 10px;
+}
+
+.modal-form-label {
+  width: 155px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  text-align: left;
+}
+
+.modal-group {
+  width: 575px;
+  position: relative;
+}
+
+.modal-field {
+  position: absolute;
+  right: 0;
+  width: 420px;
+  height: 50px;
+  padding: 0;
+  padding-left: 19px;
+  margin: 0;
+  color: #000000;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.modal-field::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  background-image: url(../images/date-1.svg);
+}
 
 /* Страница каталога */
 
