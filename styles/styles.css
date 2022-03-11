@@ -823,11 +823,28 @@ body {
   height: 53px;
   background-color: #ffffff;
   border: none;
-  background-image: url(../images/close-button.svg);
+  fill: #f2f2f2;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 } 
+
+.module-modal-button {
+  position: absolute;
+  padding: 0;
+  top: 20px;
+  right: 20px;
+  width: 13px;
+  height: 13px;
+  fill: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  fill: #E6E6E6;
+}
 
 .modal-button {
   position: relative;
@@ -839,19 +856,36 @@ body {
   border: none;
   border-radius: 10px;
 }
-/* 
-.modal-button::after {
-  content: '';
-  display: block;
+
+.button-minus {
   position: absolute;
+  padding: 0;
   top: 18px;
-  right: 17px;
-  background-image: url(../images/group.svg);
-  background-position: right;
+  left: 140px;
+  width: 13px;
+  height: 13px;
+  background-color: #f2f2f2;
+  border: none;
+  fill: #000000;
   background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-} */
+  background-position: center;
+  cursor: pointer;
+}
+
+.button-plus {
+  position: absolute;
+  padding: 0;
+  top: 18px;
+  right: 19px;
+  width: 13px;
+  height: 13px;
+  background-color: #f2f2f2;
+  border: none;
+  fill: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
 
 .modal-form-label {
   width: 155px;
@@ -1286,7 +1320,6 @@ input[type="range"] {
 .control {
   position: relative;
   display: block;
-  /* padding-left: 36px; */
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -1295,7 +1328,9 @@ input[type="range"] {
   text-decoration: none;
 }
 
-
+.control-label {
+  padding-left: 19px;
+}
 
 .control-mark {
   position: absolute;
@@ -1310,9 +1345,36 @@ input[type="range"] {
   border-radius: 4px;
 }
 
+.with-out-mark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
 .control-mark:hover {
   background-color: #FFFFFF99;
 }
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+
+}
+
 
 .sorting-container {
   display: flex;
