@@ -1176,7 +1176,6 @@ body {
 }
 
 .dwelling {
-  width: 145px;
   margin-right: 160px;
 }
 
@@ -1193,6 +1192,7 @@ body {
 }
 
 .catalog-filter-list {
+  width: 150px;
   list-style-type: none;
   margin: 0;
   margin-top: 30px;
@@ -1466,22 +1466,20 @@ input[type="range"] {
   background-color: #FFFFFF99;
 }
 
-.control-input[type="radio"] + .control-mark {
+.control-input[type="radio"] + .with-out-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:checked + .control-mark::before {
+.control-input[type="radio"]:checked + .with-out-mark::before {
   content: "";
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
   border-radius: 50%;
-
 }
-
 
 .sorting-container {
   display: flex;
@@ -1521,14 +1519,18 @@ input[type="range"] {
 .select-control {
   margin: 0;
   margin-right: 81px;
-  padding: 0;
+  padding: 12px 21px 13px 19px;
   width: 287px;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
   border: 2px solid #E6E6E6;
+  background-image: url(../images/dropdown-1-sorting.svg);
+  background-repeat: no-repeat;
   border-radius: 4px;
-}
+  background-position: right 16px center;
+  appearance: none;
+} 
 
 .select-control:hover {
   outline: 2px solid #83B3D3;
