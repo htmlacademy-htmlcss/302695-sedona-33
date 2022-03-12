@@ -170,13 +170,44 @@ body {
   text-transform: uppercase;
 }
 
-.reboot {
+.button-choose:hover, button-choose:focus, button-choose:active {
+  background-color:  #68A2CA;
+}
+
+.button-choose:focus {
+  outline: 3px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.button-choose:active {
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.reboot, .reboot:focus {
   color: #ffffff;
   background-color: transparent;
   font-size: 18px;
   line-height: 23px;
   text-align: center;
   border: none;
+}
+
+.reboot:hover {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.reboot:focus {
+  outline: 3px solid #83B3D3;
+  width: 100px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.reboot:active {
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .indent {
@@ -994,7 +1025,6 @@ body {
   right: -534%;
   transform: translateY(137%);
   z-index: 1;
-  /* display: none; */
 }
 
 .tooltip-text:before {
@@ -1172,9 +1202,9 @@ body {
 }
 
 /* скрывает модальное окно */
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 /* Страница каталога */
 
@@ -1296,9 +1326,6 @@ body {
 
 .catalog-filter-label {
   display: flex;
-  /* margin-right: 5px; */
-  /* position: relative; */
-  
 }
 
 .range-input {
@@ -1340,12 +1367,6 @@ body {
   border-bottom-left-radius: 0;
 }
 
-/* 
-.min-cost-from {
-  padding-right: 14px;
-  text-align: center;
-} */
-
 input[type="range"] {
   width: 287px;
 }
@@ -1355,6 +1376,7 @@ input[type="range"] {
   flex-direction: column;
   width: 160px;
   padding-top: 45px;
+  position: relative;
 }
 
 .inner-header {
@@ -1904,6 +1926,10 @@ input[type="range"] {
   border-radius: 4px;
   padding: 17px 0;
   border: none;
+}
+
+.pagination-show-more:hover {
+  background-color:#68A2CA;
 }
 
 .pagination-show {
