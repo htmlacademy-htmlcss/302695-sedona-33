@@ -1289,7 +1289,7 @@ body {
 }
 
 .range-toggle:hover {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
@@ -1326,6 +1326,29 @@ body {
 
 .catalog-filter-label {
   display: flex;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter-label::before {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  color: rgba(255, 255, 255, 0.3);
+
+}
+
+.catalog-filter-label.minimal::before {
+  width: 17px;
+  content: 'от';
+}
+
+.catalog-filter-label.maximal::before {
+  width: 20px;
+  content: 'до';
+  right: 17px;
 }
 
 .range-input {
@@ -1348,12 +1371,6 @@ body {
   margin: 0;
 }
 
-.cost-selection {
-  display: flex;
-  flex-wrap: wrap;
-  width: 287px;
-} 
-
 .min-cost {
   width: 143px;
   border-top-right-radius: 0;
@@ -1365,6 +1382,22 @@ body {
   width: 144px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.min-cost:hover, .max-cost:hover {
+  outline: 2px solid #FFFFFF;
+  opacity: 0.6;
+}
+
+.min-cost:focus, .max-cost:focus {
+  outline: 2px solid #FFFFFF;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  opacity: 0.6;
+}
+
+.min-cost:active, .max-cost:active {
+  background-color: #756257;
+  outline: 2px solid #FFFFFF;
 }
 
 input[type="range"] {
@@ -1412,7 +1445,6 @@ input[type="range"] {
 
 /* Link */
 .breadcrumbs-link {
-  margin-right: 26px;
   margin-bottom: 45px;
   font-weight: 400;
   font-size: 16px;
@@ -1422,33 +1454,41 @@ input[type="range"] {
   text-decoration: none;
 }
 
-.breadcrumbs-link:hover {
-  background: #FFFFFF;
-  opacity: 0.6;
-}
-/* 
-.breadcrumbs-link:focus {
-  border: 3px solid #83B3D3;
-  box-sizing: border-box;
-  border-radius: 4px;
-} */
-
 .hotel-breadcrumbs:hover {
-  color: #FFFFFF;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link.house::before {
+.hotel-breadcrumbs:focus {
+  color: rgba(255, 255, 255);
+  outline: 3px solid #83B3D3;
+  outline-offset: 0;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.breadcrumbs-link.house-btn::before {
   content: '';
-  display: block;
-  position: absolute;
-  top: 6px;
+  display: inline-block;
   background-image: url(../images/button_house.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 12px;
   height: 12px;
-  right: 11px;
+  margin-right: 11px;
+  vertical-align: middle;
+}
+
+.house-btn:hover {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.house-btn:focus {
+  color: #ffffff;
+  outline: 3px solid #83B3D3;
+  outline-offset: 0;
+  border-radius: 4px;
+  align-items: center;
 }
 
 .hotel-breadcrumbs {
@@ -1509,26 +1549,19 @@ input[type="range"] {
 }
 
 .control-mark {
-  position: absolute;
-  top: 5px;
-  left: 0;
+  display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(../images/tick-1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff;
   border-radius: 4px;
 }
 
-.with-out-mark {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
-  border-radius: 4px;
+.control-input[type="checkbox"]:checked + .control-mark {
+  background-image: url(../images/tick-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .control-mark:hover, .control-mark:focus {
@@ -1541,16 +1574,19 @@ input[type="range"] {
 
 .control-mark:active {
   fill: #3F5E72;
-  background: #FFFFFF4D;
+  background-color: #FFFFFF4D;
 
 }
 
-.control-input[type="radio"] + .with-out-mark {
+.control-input[type="radio"] + .control-mark {
   border-radius: 50%;
-}
+  left: 0;
+  top: 5px;
+  background-color: #ffffff;
+} 
 
-.control-input[type="radio"]:checked + .with-out-mark::before {
-  content: "";
+.control-input[type="radio"]:checked + .control-mark:before {
+  content: '';
   position: absolute;
   top: 5px;
   left: 5px;
@@ -1558,17 +1594,6 @@ input[type="range"] {
   height: 10px;
   background-color: #3F5E72;
   border-radius: 50%;
-}
-
-.min-cost:hover, .max-cost:hover {
-  outline: 2px solid #FFFFFF;
-  opacity: 0.6;
-}
-
-.min-cost:focus, .max-cost:focus {
-  outline: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 0px 3px #81B3D2;
 }
 
 .sorting-container {
