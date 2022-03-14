@@ -912,31 +912,37 @@ body {
   position: absolute;
   padding: 0;
   top: 24px;
-  left: 116px;
+  left: 110px;
   width: 13px;
-  height: 1px;
+  height: 13px;
   background-color: #f2f2f2;
   border: none;
-  background-image: url(../images/minus.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
   z-index: 1;
 }
+
+.button-minus::before {
+  content: url(../images/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -5px;
+  position: absolute;
+  transform: translateY(-5px);
+  cursor: pointer;
+  opacity: 0.3;
+}
+/* 
+.button-minus:hover {
+  background-image: url(../images/minus.svg);
+} */
 
 .button-minus.people-button {
   position: absolute;
   padding: 0;
-  top: 24px;
-  left: 140px;
+  left: 131px;
   width: 13px;
-  height: 1px;
+  height: 13px;
   background-color: #f2f2f2;
   border: none;
-  background-image: url(../images/minus.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
 }
 
 .button-plus {
@@ -948,10 +954,14 @@ body {
   height: 13px;
   background-color: #f2f2f2;
   border: none;
-  background-image: url(../images/plus.svg);
+}
+
+.button-plus::after {
+  content: url(../images/plus.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 .button-plus.people-button {
@@ -963,46 +973,7 @@ body {
   height: 13px;
   background-color: #f2f2f2;
   border: none;
-  background-image: url(../images/plus.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
 }
-/*
-.button-minus:hover {
-  fill: #000000;
-}
-
-.button-plus:hover {
-  fill: #000000;
-}
-
-.button-minus:focus {
-  fill: #000000;
-  outline: 3px solid #83B3D3;
-  border-radius: 4px;
-  width: 25px;
-  height: 25px;
-  top: 6px;
-  left: 6px;
-}
-
-.button-plus:focus {
-  fill: #000000;
-  outline: 3px solid #83B3D3;
-  border-radius: 4px;
-  width: 25px;
-  height: 25px;
-  top: 6px;
-  left: 6px;
-}
-
-.button-plus:focus {
-  fill: #000000;
-  outline: 3px solid #83B3D3;
-  top: 6px;
-  left: 6px;
-} */
 
 .tooltip {
   position: absolute;
