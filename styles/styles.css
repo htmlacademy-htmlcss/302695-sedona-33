@@ -1237,12 +1237,12 @@ body {
 }
 
 .dwelling {
-  margin-right: 150px;
+  margin-right: 145px;
 }
 
 .housing-cost {
   width: 287px;
-  margin-right: 81px;
+  margin-right: 53px;
 }
 
 .catalog-filter {
@@ -1787,10 +1787,33 @@ input[type="range"] {
   height: 37px;
 }
 
-.stars-rating {
-  padding-right: 5px;
+.rating {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url(../images/icon/icon-star-1.svg);
+  background-repeat: repeat-x;
   fill:#83B3D3;
+  height: 17px;
+  background-position: left;
 }
+
+.rating:nth-child(1) {
+  width: 72px;
+}
+
+.rating:nth-child(2) {
+  width: 54px;
+}
+
+.rating:nth-child(3) {
+  width: 36px;
+} 
+
+.rating:nth-child(4) {
+  width: 36px;
+} 
 
 .hotel-rating {
   margin: 0;
@@ -1803,13 +1826,6 @@ input[type="range"] {
   background-color: #f2f2f2;
   text-align: center;
 } 
-
-.rating {
-  margin: 0;
-  padding: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 .favourites-link.current {
   background-color:#7DB54F;
