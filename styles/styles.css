@@ -977,8 +977,6 @@ body {
   position: absolute;
   margin-top: 4px;
   margin-left: 14px;
-  width: 25px;
-  height: 25px;
 }
 
 .tooltip-toggle {
@@ -986,24 +984,19 @@ body {
   padding: 0;
   margin: 0;
   display: block;
-}
-
-.tooltip-svg {
-  position: absolute;
-  top: 5px;
-  left: 17px;
-  fill:#83B3D3;
-  ;
-}
-
-.tooltip-svg:hover {
-  fill: #68A2CA;
+  width: 25px;
+  height: 25px;
+  background-color: #83B3D3;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
 .litera {
-  position: absolute;
-  top: 12px;
-  left: 29px;
+  fill: #ffffff;
+}
+
+.tooltip-toggle:hover {
+  background-color: #68A2CA;
 }
 
 .tooltip-text {
@@ -1015,16 +1008,15 @@ body {
   text-transform: none;
   padding: 15px 18px 18px 22px;
   border-radius: 10px;
-  display: block;
   width: 216px;
   background: #333333;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
   position: absolute;
   bottom: 100%;
-  right: -534%;
+  right: -463%;
   transform: translateY(137%);
   z-index: 1;
+  display: none;
 }
 
 .tooltip-text:before {
@@ -1072,6 +1064,7 @@ body {
   line-height: 40px;
   color: #000000;
   text-align: left;
+  vertical-align: middle;
 }
 
 .form-label-icon {
@@ -1085,12 +1078,10 @@ body {
 }
 
 .modal-group.appointment-form-child {
-  padding-left: 14px;
-  width: 286px;
+  width: 230px;
 }
 
 .modal-group {
-  width: 575px;
   position: relative;
   margin: 0;
 }
@@ -1198,7 +1189,8 @@ body {
 
 .people-child {
   display: flex;
-  width: 575px;
+  width: 574px;
+  height: 50px;
 }
 
 /* скрывает модальное окно */
