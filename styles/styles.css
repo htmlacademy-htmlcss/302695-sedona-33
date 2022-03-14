@@ -911,13 +911,28 @@ body {
 .button-minus {
   position: absolute;
   padding: 0;
-  top: 18px;
-  left: 140px;
+  top: 24px;
+  left: 116px;
   width: 13px;
-  height: 13px;
+  height: 1px;
   background-color: #f2f2f2;
   border: none;
-  fill: #00000033;
+  background-image: url(../images/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.button-minus.people-button {
+  position: absolute;
+  padding: 0;
+  top: 24px;
+  left: 140px;
+  width: 13px;
+  height: 1px;
+  background-color: #f2f2f2;
+  border: none;
+  background-image: url(../images/minus.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -932,12 +947,27 @@ body {
   height: 13px;
   background-color: #f2f2f2;
   border: none;
-  fill: #00000033;
+  background-image: url(../images/plus.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 
+.button-plus.people-button {
+  position: absolute;
+  padding: 0;
+  top: 18px;
+  right: 51px;
+  width: 13px;
+  height: 13px;
+  background-color: #f2f2f2;
+  border: none;
+  background-image: url(../images/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+/*
 .button-minus:hover {
   fill: #000000;
 }
@@ -971,7 +1001,7 @@ body {
   outline: 3px solid #83B3D3;
   top: 6px;
   left: 6px;
-}
+} */
 
 .tooltip {
   position: absolute;
@@ -1037,15 +1067,6 @@ body {
   display: block;
 }
 
-.calendar {
-  position: absolute;
-  fill: #00000033;
-  top: 18px;
-  right: 19px;
-  width: 15px;
-  height: 15px;
-}
-
 .modal-form-label {
   width: 155px;
   font-style: normal;
@@ -1104,10 +1125,16 @@ body {
   border: none;
   border-radius: 4px;
   background-color: #f2f2f2;
+  background-image: url(../images/date-1.svg);
+  background-position: right 19px center;
+  background-repeat: no-repeat;
 }
 
 .modal-field:hover, .modal-field:focus {
-  background: #E6E6E6;
+  background-color: #E6E6E6;
+  background-image: url(../images/date-1.svg);
+  background-position: right 19px center;
+  background-repeat: no-repeat;
 }
 
 .modal-field:focus {
@@ -1118,6 +1145,9 @@ body {
   background: #ffffff;
   outline: 2px solid #000000;
   color: #000000;
+  background-image: url(../images/date-1.svg);
+  background-position: right 19px center;
+  background-repeat: no-repeat
 }
 
 .modal-field-2 {
@@ -1139,7 +1169,15 @@ body {
   text-align: center;
 }
 
-.modal-field-2::before {
+.people {
+  left: 120px;
+}
+
+/* .modal-field-2:after {
+  transform: rotate(90deg);
+} */
+
+/* .modal-field-2::before {
   content: '';
   position: absolute;
   top: 18px;
@@ -1157,11 +1195,7 @@ body {
   width: 13px;
   height: 1px;
   background-color: #000000;
-}
-
-.modal-field-2:after {
-  transform: rotate(90deg);
-}
+} */
 
 .explanations {
   width: 420px;
