@@ -1799,6 +1799,10 @@ input[type="range"] {
   background-position: left;
 }
 
+.hotel-stars-rating-5 {
+  width: 90px;
+}
+
 .hotel-stars-rating-4 {
   width: 72px;
 }
@@ -1810,6 +1814,10 @@ input[type="range"] {
 .hotel-stars-rating-2 {
   width: 36px;
 }  
+
+.hotel-stars-rating-1 {
+  width: 18px;
+}
 
 .hotel-rating {
   margin: 0;
