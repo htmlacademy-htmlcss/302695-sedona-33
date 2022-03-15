@@ -909,40 +909,46 @@ body {
 }
 
 .button-minus {
-  position: absolute;
+  position: relative;
   padding: 0;
-  top: 24px;
-  left: 110px;
+  top: 0;
+  left: 40px;
   width: 13px;
   height: 13px;
   background-color: #f2f2f2;
   border: none;
   z-index: 1;
+  opacity: 0.3;
+}
+
+.button-minus:hover, .button-minus:focus {
+  opacity: inherit;
+}
+
+.button-minus:focus {
+  outline: 3px solid #83B3D3;
+  outline-offset: 3px;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
 }
 
 .button-minus::before {
-  content: url(../images/minus.svg);
+  width: 13px;
+  height: 1px;
+  content: '';
+  background-image: url(../images/minus.svg);
   background-repeat: no-repeat;
   background-position: center;
-  top: -5px;
+  top: 46%;
+  left: 0%;
   position: absolute;
-  transform: translateY(-5px);
+  transform: translateY(-46%);
   cursor: pointer;
-  opacity: 0.3;
 }
-/* 
-.button-minus:hover {
-  background-image: url(../images/minus.svg);
-} */
 
 .button-minus.people-button {
-  position: absolute;
-  padding: 0;
-  left: 131px;
-  width: 13px;
-  height: 13px;
-  background-color: #f2f2f2;
-  border: none;
+  left: 19%;
 }
 
 .button-plus {
@@ -954,6 +960,19 @@ body {
   height: 13px;
   background-color: #f2f2f2;
   border: none;
+  opacity: 0.3;
+}
+
+.button-plus:hover, .button-plus:focus {
+  opacity: inherit;
+}
+
+.button-plus:focus {
+  outline: 3px solid #83B3D3;
+  outline-offset: 3px;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
 }
 
 .button-plus::after {
@@ -961,18 +980,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  opacity: 0.3;
 }
 
 .button-plus.people-button {
-  position: absolute;
-  padding: 0;
-  top: 18px;
   right: 51px;
-  width: 13px;
-  height: 13px;
-  background-color: #f2f2f2;
-  border: none;
 }
 
 .tooltip {
@@ -1144,30 +1155,6 @@ body {
 .people {
   left: 120px;
 }
-
-/* .modal-field-2:after {
-  transform: rotate(90deg);
-} */
-
-/* .modal-field-2::before {
-  content: '';
-  position: absolute;
-  top: 18px;
-  right: 19px;
-  width: 13px;
-  height: 1px;
-  background-color: #000000;
-}
-
-.modal-field-2::after {
-  content: '';
-  position: absolute;
-  top: 18px;
-  right: 19px;
-  width: 13px;
-  height: 1px;
-  background-color: #000000;
-} */
 
 .explanations {
   width: 420px;
