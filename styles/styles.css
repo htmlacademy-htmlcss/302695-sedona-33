@@ -911,9 +911,9 @@ body {
   position: relative;
   padding: 0;
   top: 0;
-  left: 40px;
-  width: 13px;
-  height: 13px;
+  left: 27px;
+  width: 50px;
+  height: 50px;
   background-color: #f2f2f2;
   border: none;
   z-index: 1;
@@ -940,23 +940,23 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   top: 46%;
-  left: 0%;
+  left: 35%;
   position: absolute;
-  transform: translateY(-46%);
+  transform: translateY(-35%);
   cursor: pointer;
 }
 
 .button-minus.people-button {
-  left: 19%;
+  left: 12%;
 }
 
 .button-plus {
   position: absolute;
   padding: 0;
-  top: 18px;
-  right: 19px;
-  width: 13px;
-  height: 13px;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
   background-color: #f2f2f2;
   border: none;
   opacity: 0.3;
@@ -982,7 +982,7 @@ body {
 }
 
 .button-plus.people-button {
-  right: 51px;
+  right: 35px;
 }
 
 .tooltip {
