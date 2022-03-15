@@ -888,7 +888,6 @@ body {
   width: 100%;
   margin: 0;
   margin-top: 40px;
-  position: relative;
   padding: 15px 218px;
   border: none;
   border-radius: 10px;
@@ -899,7 +898,7 @@ body {
 }
 
 .modal-button:focus {
-  border: 3px solid #756257;
+  outline: 3px solid #756257;
 }
 
 .modal-button:active {
