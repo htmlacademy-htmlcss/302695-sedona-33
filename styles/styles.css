@@ -200,7 +200,7 @@ body {
 
 .reboot:focus {
   outline: 3px solid #83B3D3;
-  width: 100px;
+  outline-offset: 1px;
   height: 32px;
   border-radius: 4px;
 }
@@ -1188,9 +1188,9 @@ body {
 }
 
 /* скрывает модальное окно */
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 /* Страница каталога */
 
@@ -1469,12 +1469,13 @@ input[type="range"] {
   opacity: 0.6;
 }
 
-.house-btn:focus {
+.house-btn:focus::before {
   color: #ffffff;
   outline: 3px solid #83B3D3;
-  outline-offset: 0;
-  border-radius: 4px;
+  outline-offset: 4px;
+  border-radius: 1px;
   align-items: center;
+  border: none;
 }
 
 .hotel-breadcrumbs {
