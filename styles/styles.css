@@ -918,16 +918,17 @@ body {
   border: none;
   z-index: 1;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 .button-minus:hover, .button-minus:focus {
   opacity: inherit;
 }
 
-.button-minus:focus {
+.button-minus:focus::before {
   outline: 3px solid #83B3D3;
-  outline-offset: 3px;
-  border-radius: 4px;
+  outline-offset: 2px;
+  border-radius: 2px;
   width: 20px;
   height: 20px;
 }
@@ -960,16 +961,17 @@ body {
   background-color: #f2f2f2;
   border: none;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 .button-plus:hover, .button-plus:focus {
   opacity: inherit;
 }
 
-.button-plus:focus {
+.button-plus:focus::after {
   outline: 3px solid #83B3D3;
-  outline-offset: 3px;
-  border-radius: 4px;
+  outline-offset: 5px;
+  border-radius: 1px;
   width: 20px;
   height: 20px;
 }
