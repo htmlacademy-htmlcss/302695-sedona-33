@@ -1207,9 +1207,9 @@ body {
 }
 
 /* скрывает модальное окно */
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 /* Страница каталога */
 
