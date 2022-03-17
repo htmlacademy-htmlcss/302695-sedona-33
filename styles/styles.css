@@ -911,7 +911,7 @@ body {
   position: relative;
   padding: 0;
   top: 0;
-  left: 27px;
+  left: 25px;
   width: 50px;
   height: 50px;
   background-color: #f2f2f2;
@@ -948,7 +948,7 @@ body {
 }
 
 .button-minus.people-button {
-  left: 12%;
+  left: 25%;
 }
 
 .button-plus {
@@ -984,13 +984,13 @@ body {
 }
 
 .button-plus.people-button {
-  right: 35px;
+  right: 0;
 }
 
 .tooltip {
   position: absolute;
   margin-top: 4px;
-  margin-left: 14px;
+  margin-left: 8px;
 }
 
 .tooltip-toggle {
@@ -1027,7 +1027,7 @@ body {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 100%;
-  right: -463%;
+  right: -460%;
   transform: translateY(137%);
   z-index: 1;
   display: none;
@@ -1112,6 +1112,7 @@ body {
   background-image: url(../images/date-1.svg);
   background-position: right 19px center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .modal-field:hover, .modal-field:focus {
@@ -1126,12 +1127,18 @@ body {
 }
 
 .modal-field:active {
-  background: #ffffff;
+  background-color: #ffffff;
   outline: 2px solid #000000;
   color: #000000;
   background-image: url(../images/date-1.svg);
   background-position: right 19px center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+}
+
+.modal-field:not(:placeholder-shown) {
+  background-color: #ffffff;
+  padding-right: 47px;
+  box-sizing: border-box;
 }
 
 .modal-field-2 {
@@ -1154,13 +1161,25 @@ body {
 }
 
 .people {
-  left: 120px;
+  left: 155px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.modal-field-2::-webkit-outer-spin-button,
+.modal-field-2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.modal-field-2 input {
+  appearance: textfield;
 }
 
 .explanations {
   width: 420px;
   margin: 0;
-  margin-left: 120px;
+  margin-left: 155px;
   padding: 0;
   padding-bottom: 11px;
   font-weight: 400;
@@ -1172,7 +1191,7 @@ body {
 .explanations-2 {
   width: 420px;
   margin: 0;
-  margin-left: 120px;
+  margin-left: 155px;
   padding: 0;
   padding-bottom: 11px;
   font-weight: 400;
