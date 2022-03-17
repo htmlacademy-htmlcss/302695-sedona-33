@@ -296,6 +296,26 @@ body {
   margin-left: auto;
 }
 
+.number-like {
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  background-color: rgb(125, 181, 79);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  top: 12px;
+  right: 5px;
+}
+
+.number-like:active {
+  background-color:rgb(125, 181, 79);
+  color: #ffffff;
+  opacity: 0.3;
+}
+
 .navigation-user .navigation-link {
   min-width: 20px;
   min-height: 20px;
@@ -324,6 +344,10 @@ body {
 
 .header-icon-2 {
   fill: #000000;
+}
+
+.header-icon-2:active {
+  fill-opacity: 0.3;
 }
 
 .logo {
@@ -1126,17 +1150,12 @@ body {
   outline: 3px solid #83B3D3;
 }
 
-.modal-field:active {
+.modal-field:not(:placeholder-shown) {
   background-color: #ffffff;
   outline: 2px solid #000000;
   color: #000000;
-  background-image: url(../images/date-1.svg);
   background-position: right 19px center;
   background-repeat: no-repeat;
-}
-
-.modal-field:not(:placeholder-shown) {
-  background-color: #ffffff;
   padding-right: 47px;
   box-sizing: border-box;
 }
@@ -1207,6 +1226,7 @@ body {
 }
 
 /* скрывает модальное окно */
+
 .modal-container-close {
   display: none;
 }
@@ -1463,13 +1483,22 @@ input[type="range"] {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hotel-breadcrumbs:focus {
+
+/* .hotel-breadcrumbs:focus:not(::before) {
   color: rgba(255, 255, 255);
   outline: 3px solid #83B3D3;
   outline-offset: 0;
   border-radius: 4px;
   align-items: center;
-}
+} */
+
+.breadcrumbs-item:focus {
+  color: rgba(255, 255, 255);
+  outline: 3px solid #83B3D3;
+  outline-offset: 0;
+  border-radius: 4px;
+  align-items: center;
+} 
 
 .breadcrumbs-link.house-btn::before {
   content: '';
