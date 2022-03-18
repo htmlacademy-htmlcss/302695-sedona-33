@@ -941,10 +941,12 @@ body {
 }
 
 .button-minus {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   padding: 0;
   top: 0;
-  left: 25px;
+  /* left: 25px; */
+  left: 97px;
   width: 50px;
   height: 50px;
   background-color: #f2f2f2;
@@ -981,7 +983,7 @@ body {
 }
 
 .button-minus.people-button {
-  left: 25%;
+  left: 54%;
 }
 
 .button-plus {
@@ -1036,6 +1038,7 @@ body {
   background-color: #83B3D3;
   border-radius: 50%;
   margin-top: 10px;
+  margin-left: 5px;
 }
 
 .litera {
@@ -1060,7 +1063,7 @@ body {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 100%;
-  right: -460%;
+  right: -390%;
   transform: translateY(137%);
   z-index: 1;
   display: none;
