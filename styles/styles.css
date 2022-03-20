@@ -75,11 +75,8 @@ body {
 }
 
 .navigation-button-whant-there {
-  display: flex;
-  justify-content: center;
-  margin-top: 14px;
-  margin-left: 20px;
-  padding: 9px 34px;
+  margin: 14px 0 19px 20px;
+  padding: 9px 15px;
   font-size: 16px;
   line-height: 20px;
   background-color: #756257;
