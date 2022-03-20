@@ -241,70 +241,70 @@
       </section>
     </div>
   </footer>
-  <div class="modal-container modal-container-close">
-    <div class="modal modal-auth">
-      <button class="modal-close-button">
-        <span class="visually-hidden">Закрыть</span>
-          <svg width="53" height="53" viewBox="0 0 53 53" xmlns="http://www.w3.org/2000/svg"><circle cx="26.5" cy="26.5" r="26.5"/>
-          </svg>
-          <svg class="module-modal-button" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" fill="#000"/>
-          </svg>
-      </button>
-      <section class="modal-content">
-        <h2 class="modal-title"> ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-      </section>
-      <div class="modal-find-hotel">
-        <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="modal-group appointment-form-date-check-in">
-            <label class="modal-form-label" for="appointment-date">
-              Дата заезда:
-            </label>
+</div>
+<div class="modal-container modal-container-close">
+  <div class="modal modal-auth">
+    <button class="modal-close-button">
+      <span class="visually-hidden">Закрыть</span>
+        <svg width="53" height="53" viewBox="0 0 53 53" xmlns="http://www.w3.org/2000/svg"><circle cx="26.5" cy="26.5" r="26.5"/>
+        </svg>
+        <svg class="module-modal-button" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" fill="#000"/>
+        </svg>
+    </button>
+    <section class="modal-content">
+      <h2 class="modal-title"> ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+    </section>
+    <div class="modal-find-hotel">
+      <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+        <p class="modal-group appointment-form-date-check-in">
+          <label class="modal-form-label" for="appointment-date">
+            Дата заезда:
+          </label>
 
-            <input class="modal-field" placeholder="27 апреля 2020" type="text" name="appointment-date" id="appointment-date">
-              <p class="explanations">Мы не можем отправить Вас в прошлое.</p>
-          </p>
-          <p class="modal-group appointment-form-date-exit">
-            <label class="modal-form-label" for="appointment-date-2">
-              Дата выезда:
+          <input class="modal-field" placeholder="27 апреля 2020" type="text" name="appointment-date" id="appointment-date">
+        </p>
+        <p class="explanations">Мы не можем отправить Вас в прошлое.</p>
+        <p class="modal-group appointment-form-date-exit">
+          <label class="modal-form-label" for="appointment-date-2">
+            Дата выезда:
+          </label>
+          
+            <input class="modal-field" placeholder="1 сентября 2021" type="text" name="appointment-date-2" id="appointment-date-2"
+              required>
+        </p>
+        <p class="explanations-2">На эти даты есть свободные номера. Пока есть.</p>
+        <div class="people-child">
+          <p class="modal-group appointment-form-people">
+            <label class="modal-form-label-2" for="appointment-quantity">
+              Взрослые:
             </label>
-            
-              <input class="modal-field" placeholder="1 сентября 2021" type="text" name="appointment-date-2" id="appointment-date-2"
-                required>
-              <p class="explanations-2">На эти даты есть свободные номера. Пока есть.</p>
+            <button type="button" class="button-minus people-button"><span class="visually-hidden">Минус</span></button>
+            <input class="modal-field-2 people" placeholder="2" type="number" min="1" max="5" name="appointment-quantity-2" id="appointment-quantity-2">
+            <button type="button" class="button-plus people-button"><span class="visually-hidden">Плюс</span></button>
           </p>
-          <div class="people-child">
-            <p class="modal-group appointment-form-people">
+          <p class="modal-group appointment-form-child">
+            <span class="modal-form-label-2 form-label-icon">
               <label class="modal-form-label-2" for="appointment-quantity">
-                Взрослые:
+                Дети:
               </label>
-              <button type="button" class="button-minus people-button"><span class="visually-hidden">Минус</span></button>
-              <input class="modal-field-2 people" placeholder="2" type="number" min="1" max="5" name="appointment-quantity-2" id="appointment-quantity-2">
-              <button type="button" class="button-plus people-button"><span class="visually-hidden">Плюс</span></button>
-            </p>
-            <p class="modal-group appointment-form-child">
-              <span class="modal-form-label-2 form-label-icon">
-                <label class="modal-form-label-2" for="appointment-quantity">
-                  Дети:
-                </label>
-                <span class="tooltip">
-                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
-                    <svg class="litera" width="1" height="9" viewBox="0 0 1 9" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z"/></g><defs><clipPath id="a">
-                      <path fill="#fff" d="M0 0h1v9H0z"/></clipPath></defs>
-                    </svg>
-                  </button>
-                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, <span>которые будут с вами, возраст</span> которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                </span>
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                  <svg class="litera" width="1" height="9" viewBox="0 0 1 9" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z"/></g><defs><clipPath id="a">
+                    <path fill="#fff" d="M0 0h1v9H0z"/></clipPath></defs>
+                  </svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, <span>которые будут с вами, возраст</span> которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </span>
-              <button type="button" class="button-minus"><span class="visually-hidden">Плюс</span></button>
-              <input class="modal-field-2" placeholder="1" type="number" min="0" max="10" name="appointment-quantity" id="appointment-quantity">
-              <button type="button" class="button-plus"><span class="visually-hidden">Минус</span></button>
-            </p>
-          </div>
-          <button class="button modal-button" type="submit">
-            <span>Найти</span>
-          </button>
-        </form>
-      </div>
+            </span>
+            <button type="button" class="button-minus"><span class="visually-hidden">Плюс</span></button>
+            <input class="modal-field-2" placeholder="1" type="number" min="0" max="10" name="appointment-quantity" id="appointment-quantity">
+            <button type="button" class="button-plus"><span class="visually-hidden">Минус</span></button>
+          </p>
+        </div>
+        <button class="button modal-button" type="submit">
+          <span>Найти</span>
+        </button>
+      </form>
     </div>
   </div>
 </div>
