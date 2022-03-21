@@ -94,8 +94,10 @@ body {
 } 
 
 .button-find {
+  display: block;
+  width: 575px;
   margin: 0 auto;
-  padding: 15px 160px;
+  padding: 15px 15px;
   line-height: 30px;
   background-color: #756257;
   border-radius: 10px;
