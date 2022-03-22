@@ -1266,9 +1266,10 @@ body {
 /* Страница каталога */
 
 .inner-header-filter {
+  display: flex;
   flex-direction: column;
   padding-top: 35px;
-  padding-bottom: 83px;
+  padding-bottom: 70px;
   color: #ffffff;
   background-image: url("../images/catalog-background-1.jpg");
   background-size: cover;
@@ -1294,23 +1295,21 @@ body {
 }
 
 .dwelling {
-  margin-right: 145px;
+  margin-right: 164px;
 }
 
 .housing-cost {
   width: 287px;
-  margin-right: 53px;
+  margin-right: 75px;
 }
 
 .catalog-filter {
   display: flex;
-  width: 1056px;
   color: #ffffff;
   padding: 0;
 }
 
 .catalog-filter-list {
-  width: 150px;
   list-style-type: none;
   margin: 0;
   margin-top: 30px;
@@ -1324,7 +1323,7 @@ body {
 .range-scale {
   position: relative;
   height: 4px;
-  margin-top: 32px;
+  margin-top: 24px;
   background-color: #ffffff30;
   border-radius: 5px;
 }
@@ -1429,14 +1428,12 @@ body {
 }
 
 .min-cost {
-  width: 143px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-right: none;
 }
 
 .max-cost {
-  width: 144px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -1475,6 +1472,7 @@ input[type="range"] {
 
 .inner-header-title {
   margin: 0; 
+  margin-bottom: -8px;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -1597,7 +1595,7 @@ input[type="range"] {
 }
 
 .cost {
-  padding-bottom: 34px;
+  padding-bottom: 35px;
 }
 
 .control {
@@ -1605,7 +1603,7 @@ input[type="range"] {
   display: block;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
@@ -1674,17 +1672,13 @@ input[type="range"] {
 .sorting-container p {
   width: 420px;
   padding: 0;
-  margin: 0px 90px 0px 0px;
+  margin: 0px 106px 0px 0px;
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.number-of-hotel {
-  padding-left: 10px;
 }
 
 .sorting-container .button {
@@ -1701,8 +1695,9 @@ input[type="range"] {
 .select-control {
   margin: 0;
   margin-right: 81px;
-  padding: 12px 21px 13px 19px;
+  padding: 8px 33px 13px 19px;
   width: 287px;
+  font-family: 'PT Sans';
   font-size: 18px;
   line-height: 23px;
   color: #333333;
@@ -1710,7 +1705,7 @@ input[type="range"] {
   background-image: url(../images/dropdown-1-sorting.svg);
   background-repeat: no-repeat;
   border-radius: 4px;
-  background-position: right 16px center;
+  background-position: right 21px center;
   appearance: none;
 } 
 
@@ -2001,14 +1996,17 @@ input[type="range"] {
 
 .hotel-card-title {
   margin: 0;
-  margin-top: 16px;
+  margin-top: 9px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
 }
 
 .hotel-card-content {
   display: flex;
   flex-direction: column;
-  padding-top: 16px;
-  padding-bottom: 20px;
   width: 300px;
 }
 
