@@ -111,14 +111,14 @@
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="control-input visually-hidden" type="radio" name="product-group" value="motel">
-                  <span class="control-mark"></span>
+                  <span class="control-mark not-mark"></span>
                   <span class="control-label">Мотель</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="control-input visually-hidden" type="radio" name="product-group" value="apartments">
-                  <span class="control-mark"></span>
+                  <span class="control-mark not-mark"></span>
                   <span class="control-label">Апартаменты</span>
                 </label>
               </li>
@@ -129,18 +129,18 @@
             <div class="range">
               <div class="range-wrapper-inputs">
                 <label class="catalog-filter-label minimal">
-                  <input class="range-input min-cost" type="number" value="0" name="min-price">
+                  <input class="range-input min-cost" type="number" value="0" name="min-price" required>
                 </label>
                 <label class="catalog-filter-label maximal">
-                  <input class="range-input max-cost" type="number" value="9000" name="max-price">
+                  <input class="range-input max-cost" type="number" value="9000" name="max-price" required>
                 </label>
               </div>
               <div class="range-scale">
                 <div class="range-bar" style="left: 0; width: 227px; right: 60px">
-                  <button class="range-toggle toggle-min">
+                  <button class="range-toggle toggle-min" type="button">
                     <span class="visually-hidden">Изменить минимальную цену.</span>
                   </button>
-                  <button class="range-toggle toggle-max">
+                  <button class="range-toggle toggle-max" type="button">
                     <span class="visually-hidden">Изменить максимальную цену.</span>
                   </button>
                 </div>
