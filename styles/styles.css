@@ -972,13 +972,17 @@ body {
   cursor: pointer;
 }
 
-.button-minus:hover, .button-minus:focus {
-  background-color: #e6e6e6;
-}
-
 .button-minus:focus::before {
   outline: 3px solid #83B3D3;
   outline-offset: 2px;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.button-plus:focus::after, .people-button:focus::after {
+  outline: 3px solid #83B3D3;
+  outline-offset: 4px;
   border-radius: 2px;
   width: 20px;
   height: 20px;
@@ -1011,19 +1015,6 @@ body {
   cursor: pointer;
 }
 
-.button-plus:hover, .button-plus:focus {
-  background-color: #e6e6e6;
-}
-
-/* 
-.button-plus:focus::after {
-  outline: 3px solid #83B3D3;
-  outline-offset: 5px;
-  border-radius: 1px;
-  width: 20px;
-  height: 20px;
-} */
-
 .button-plus::after {
   content: url(../images/plus.svg);
   background-repeat: no-repeat;
@@ -1032,13 +1023,22 @@ body {
   opacity: 0.3;
 }
 
+
+.button-plus:hover::after {
+  opacity:calc(100%);
+}
+
+.button-minus:hover::before {
+  opacity:calc(100%);
+}
+
 .button-plus.people-button {
   right: 6px;
 }
 
 .tooltip {
   position: absolute;
-  margin-top: 4px;
+  margin-top: 0;
   margin-left: 8px;
 }
 
@@ -1051,8 +1051,8 @@ body {
   height: 25px;
   background-color: #83B3D3;
   border-radius: 50%;
-  margin-top: 10px;
-  margin-left: 5px;
+  margin-top: 6px;
+  margin-left: 4px;
 }
 
 .litera {
@@ -1077,7 +1077,7 @@ body {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 100%;
-  right: -387%;
+  right: -400%;
   transform: translateY(137%);
   z-index: 1;
   display: none;
@@ -1121,7 +1121,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 49px;
+  line-height: 40px;
   color: #000000;
   text-align: left;
   vertical-align: middle;
@@ -1147,6 +1147,8 @@ body {
 }
 
 .modal-group {
+  display: flex;
+  align-items: center;
   position: relative;
   margin: 0;
 }
@@ -1226,10 +1228,6 @@ body {
   appearance: textfield;
 }
 
-.modal-field-2:hover {
-  background-color: #e6e6e6;
-}
-
 .explanations {
   width: 420px;
   margin: 0;
@@ -1256,15 +1254,16 @@ body {
 
 .people-child {
   display: flex;
+  align-items:center;
   width: 574px;
   height: 50px;
 }
 
 /* скрывает модальное окно */
-/* 
+
 .modal-container-close {
   display: none;
-} */
+}
 
 /* Страница каталога */
 
