@@ -75,6 +75,20 @@ body {
   text-transform: uppercase;
 }
 
+.button-disabled,
+.button:disabled {
+  color: #f2f2f2;
+  background-color: #595959;
+}
+
+.button-disabled:focus,
+.button-disabled:hover,
+.button:disabled:hover {
+  background-color: #595959;
+  outline: none;
+  cursor: default;
+}
+
 .navigation-button-whant-there {
   width: 160px;
   margin-top: 14px;
@@ -1023,7 +1037,6 @@ body {
   opacity: 0.3;
 }
 
-
 .button-plus:hover::after {
   opacity:calc(100%);
 }
@@ -1034,6 +1047,15 @@ body {
 
 .button-plus.people-button {
   right: 6px;
+}
+
+.modal-field:disabled,
+.modal-field:disabled:hover,
+.modal-field-2:disabled,
+.modal-field-2:disabled:hover {
+  color: #ffffff;
+  background-color: #595959;
+  border-color: #59595933;
 }
 
 .tooltip {
@@ -1198,6 +1220,11 @@ body {
   box-sizing: border-box;
 }
 
+.people.input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
 .modal-field-2 {
   width: 36px;
   height: 50px;
@@ -1224,8 +1251,13 @@ body {
   -webkit-appearance: none;
 }
 
-.modal-field-2 input {
-  appearance: textfield;
+.modal-field-2.input[type=number] {
+  appearance: inherit;
+  background-color: #f2f2f2;
+  outline: 2px solid #000000;
+  color: #000000;
+  outline-offset: 0;
+  border-radius: 4px;
 }
 
 .explanations {
@@ -1260,10 +1292,10 @@ body {
 }
 
 /* скрывает модальное окно */
-
+/* 
 .modal-container-close {
   display: none;
-}
+} */
 
 /* Страница каталога */
 
@@ -1956,7 +1988,7 @@ input[type="range"] {
   margin-right: 8px;
 }
 
-.pagination-current {
+.pagination-link.pagination-current {
   color: #000000;
   background-color: #f2f2f2;
 }
